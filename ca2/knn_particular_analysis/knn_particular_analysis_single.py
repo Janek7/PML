@@ -1,5 +1,3 @@
-import math
-
 # dict keys
 KEY_INDEX = 'idx'
 KEY_FEATURES = 'features'
@@ -34,16 +32,13 @@ file.write(printseparator + '\n')
 
 # Load Data
 lines = [line.split(inputseparator) for line in open(inputfilename, 'r').read().split('\n')]
-line_dict = {idx: line for idx, line in enumerate(lines)}
-
-# Filter Data
-lines = {idx: line_dict[idx] for idx in line_dict if line_dict[idx][0] != '' and idx not in linefilter}
+lines = {idx: line for idx, line in enumerate(lines) if line[0] != '' and idx not in linefilter}
 file.write('count of data records: {}\n\n'.format(len(lines)))
 
 # Prepare Data
 lines = [{KEY_INDEX: idx,
-          KEY_FEATURES: [float(value) for value in line_dict[idx][:-1]],
-          KEY_LABEL: line_dict[idx][-1]}
+          KEY_FEATURES: [float(value) for value in lines[idx][:-1]],
+          KEY_LABEL: lines[idx][-1]}
          for idx in lines]
 
 
