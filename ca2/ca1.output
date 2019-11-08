@@ -18,3 +18,5 @@ Number of records after cleaning: 143
 
 ----------- Classifier accuracy scores -----------
 k nearest neighbour: 100%
+support vector machine: 100%
+random forest: 100%

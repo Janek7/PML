@@ -1,7 +1,9 @@
 import numpy as np
 from sklearn.model_selection import train_test_split
 from ca2.ca1_params import *
-from ca2.classifiers.knn import KnnClassifierWrapper
+from ca2.classifiers.k_nearest_neighbour import KnnClassifierWrapper
+from ca2.classifiers.random_forest import RfClassifierWrapper
+from ca2.classifiers.support_vector_machine import SvmClassifierWrapper
 from ca2.knn_particular_analysis.knn_particular_analysis import ParticularKnnAnalyst
 
 
@@ -15,9 +17,8 @@ class IrisAnalyst:
     kmp_table = None
     kmp_table_cleaned = None
     knn_accuracy = None
-
-    def __init__(self):
-        pass
+    svm_accuracy = None
+    rf_accuracy = None
 
     def analyze(self):
         """
@@ -36,10 +37,23 @@ class IrisAnalyst:
 
         # classifier
         X_train, X_test, y_train, y_test = train_test_split(self.X, self.y, test_size=1 - trainig_size)
+
         knn_classifier = KnnClassifierWrapper()
         knn_classifier.train(X_train, y_train)
         self.knn_accuracy = knn_classifier.validate(X_test, y_test)
+        # knn_classifier.plot(save_fig)
 
+        svm_classifier = SvmClassifierWrapper()
+        svm_classifier.train(X_train, y_train)
+        self.svm_accuracy = svm_classifier.validate(X_test, y_test)
+        # svm_classifier.plot(save_fig)
+
+        rf_classifier = RfClassifierWrapper()
+        rf_classifier.train(X_train, y_train)
+        self.rf_accuracy = rf_classifier.validate(X_test, y_test)
+        # rf_classifier.plot2(save_fig)
+
+        # write results
         self.write_file()
 
     def load_data(self):
@@ -104,12 +118,15 @@ class IrisAnalyst:
         for kmp_value in self.kmp_table_cleaned:
             records = self.kmp_table_cleaned[kmp_value]
             lines.append('KMP {}: {} {}'.format(kmp_value, len(records), records))
+        lines.append(output_file_line_break)
         lines.append('Number of records after cleaning: {}'.format(self.number_of_records_after_cleaning))
         lines.append(output_file_line_break)
 
         # classifier accuracy scores
         lines.append(section_header('Classifier accuracy scores'))
         lines.append('k nearest neighbour: {}%'.format(int(round(self.knn_accuracy * 100))))
+        lines.append('support vector machine: {}%'.format(int(round(self.svm_accuracy * 100))))
+        lines.append('random forest: {}%'.format(int(round(self.rf_accuracy * 100))))
 
         # write lines to file
         with open(output_file, 'w') as file:

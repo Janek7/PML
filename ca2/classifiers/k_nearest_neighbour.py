@@ -2,7 +2,6 @@ import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib.colors import ListedColormap
 from sklearn import neighbors
-from sklearn.metrics import accuracy_score
 
 from ca2.ca1_params import *
 from ca2.classifiers.classifier_wrapper import ClassifierWrapper
@@ -10,26 +9,14 @@ from ca2.classifiers.classifier_wrapper import ClassifierWrapper
 
 class KnnClassifierWrapper(ClassifierWrapper):
 
-    def train(self, X_train, y_train):
-        # train classifier
+    def __init__(self):
         self.classifier = neighbors.KNeighborsClassifier(k, weights=weights, algorithm=algorithm)
-        self.classifier.fit(X_train, y_train)
 
-        # plot if two dimensions
-        if X_train[0].shape[0] == 2:
-            self.plot(X_train, y_train)
+    def plot(self, save_fig=False):
 
-    def validate(self, X_test, y_test):
-        predictions = self.classifier.predict(X_test)
-        return accuracy_score(y_test, predictions)
+        self.check_two_dimensions()
+        X, y = self.get_data()
 
-    def plot(self, X, y):
-        """
-        plots the given data with classes
-        :param X: data
-        :param y: labels
-        :return:
-        """
         h = .02  # step size in the mesh
         # Create color maps
         cmap_light = ListedColormap(['#FFAAAA', '#AAFFAA', '#AAAAFF'])
@@ -55,13 +42,6 @@ class KnnClassifierWrapper(ClassifierWrapper):
         plt.title("3-Class classification (k = %i, weights = '%s')"
                   % (k, weights))
 
-        # plt.savefig("knn.png")
+        if save_fig:
+            plt.savefig("output_images\\knn.png")
         plt.show()
-
-
-if __name__ == '__main__':
-
-    classifier = KnnClassifierWrapper()
-    # classifier.train()
-    # accuracy_score = classifier.validate()
-    # print('Accuracy score: {}'.format(accuracy_score))
