@@ -1,6 +1,7 @@
 import numpy as np
 from sklearn.model_selection import train_test_split
-from ca2.ca1_params import *
+from ca2.ca2_params import *
+from ca2.classifiers.ensemble_voting import VotingClassifierWrapper
 from ca2.classifiers.k_nearest_neighbour import KnnClassifierWrapper
 from ca2.classifiers.random_forest import RfClassifierWrapper
 from ca2.classifiers.support_vector_machine import SvmClassifierWrapper
@@ -19,6 +20,7 @@ class IrisAnalyst:
     knn_accuracy = None
     svm_accuracy = None
     rf_accuracy = None
+    ensemble_accuracy = None
 
     def analyze(self):
         """
@@ -52,6 +54,11 @@ class IrisAnalyst:
         rf_classifier.train(X_train, y_train)
         self.rf_accuracy = rf_classifier.validate(X_test, y_test)
         # rf_classifier.plot2(save_fig)
+
+        ensemble_vote_classifier = VotingClassifierWrapper(
+            [('knn', knn_classifier.classifier), ('svm', svm_classifier.classifier), ('rf', rf_classifier.classifier)])
+        ensemble_vote_classifier.train(X_train, y_train)
+        self.ensemble_accuracy = rf_classifier.validate(X_test, y_test)
 
         # write results
         self.write_file()
@@ -127,6 +134,7 @@ class IrisAnalyst:
         lines.append('k nearest neighbour: {}%'.format(int(round(self.knn_accuracy * 100))))
         lines.append('support vector machine: {}%'.format(int(round(self.svm_accuracy * 100))))
         lines.append('random forest: {}%'.format(int(round(self.rf_accuracy * 100))))
+        lines.append('ensemble learning: {}%'.format(int(round(self.ensemble_accuracy * 100))))
 
         # write lines to file
         with open(output_file, 'w') as file:

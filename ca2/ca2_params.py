@@ -6,7 +6,7 @@ k_max_predict = [0]
 
 # Parameter for file handling
 input_file = 'iris_with_header.data'
-output_file = 'ca1.output'
+output_file = 'ca2.output'
 csv_separator = ','
 csv_line_separator = '\n'
 output_file_line_break = '\n'
@@ -31,3 +31,6 @@ random_state = None
 
 # Parameter for particular knn analysis
 kmp_range = [0, 1, 2, 3, 4]
+
+# Parameter for ensemble voting classification
+voting = 'hard'  # 'hard' ofr 'soft'

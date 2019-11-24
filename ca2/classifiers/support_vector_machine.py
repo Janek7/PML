@@ -3,7 +3,7 @@ from sklearn import svm
 import pylab as pl
 from sklearn.decomposition import PCA
 
-from ca2.ca1_params import *
+from ca2.ca2_params import *
 from ca2.classifiers.classifier_wrapper import ClassifierWrapper
 
 

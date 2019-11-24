@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 from matplotlib.colors import ListedColormap
 from sklearn import neighbors
 
-from ca2.ca1_params import *
+from ca2.ca2_params import *
 from ca2.classifiers.classifier_wrapper import ClassifierWrapper
 
 
