@@ -18,7 +18,8 @@ KMP 4: 3 [63, 121, 122]
 Number of records after cleaning: 143
 
 ----------- Classifier accuracy scores -----------
-k nearest neighbour: 98%
+k nearest neighbour: 100%
 support vector machine: 100%
-random forest: 100%
-ensemble learning: 100%
+random forest: 98%
+ensemble learning vote: 98%
+ensemble learning stacking (logistic regression): 0%

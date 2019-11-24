@@ -32,5 +32,6 @@ random_state = None
 # Parameter for particular knn analysis
 kmp_range = [0, 1, 2, 3, 4]
 
-# Parameter for ensemble voting classification
+# Parameter for ensemble classification
 voting = 'hard'  # 'hard' ofr 'soft'
+use_probas = True
