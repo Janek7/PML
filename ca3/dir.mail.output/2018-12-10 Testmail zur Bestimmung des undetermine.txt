@@ -1,5 +1,5 @@
 XSpam: nospam
-XSpamProbability: 0.4961205438725354
+XSpamProbability: 0.49612054387253535
 Von:	Testsender <sender@test.de>
 Gesendet:	Dienstag, 10.12.2018 14:00
 An:	r.gerten@hs-mannheim.de

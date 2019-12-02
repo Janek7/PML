@@ -1,0 +1,14 @@
+Priority order: ['whitelist', 'naive_bayes', 'blacklist']
+
+Naive bayes spam classes:
+spam - (1.0, 0.8)
+undetermined - (0.8, 0.5)
+nospam - (0.5, 0.0)
+
+Evaluated emails:
+2018-03-21 Kooperationsmöglichkeiten im Bereich In.txt: nospam (0.2128251210614515)
+2018-04-10 Bestellung in der Bibliothek für Gerten.txt: nospam (0.18887429636796368)
+2018-06-28 E-3 Newsletter.txt: spam (0.8496064095786788)
+2018-07-07 Hello Professor Gerten. I am UCLA journ.txt: nospam (0.2518231446526853)
+2018-11-23 Informatik-Kolloquium das Internet of T.txt: nospam (0.24253579137867065)
+2018-12-10 Testmail zur Bestimmung des undetermine.txt: nospam (0.49612054387253535)

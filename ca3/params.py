@@ -16,12 +16,16 @@ filename_whitelist = "whitelist"
 filename_results = "spamfilter.results"
 filename_nbwordtable = "nb.wordtable"
 filename_logfile = "spamfilter" + log_suffix
-priorityorder = "whitelist", "blacklist", "naive_bayes"
-nb_wordtable = {}
+
+EVALUATION_METHOD_WHITELIST = 'whitelist'
+EVALUATION_METHOD_BLACKLIST = 'blacklist'
+EVALUATION_METHOD_NAIVE_BAYES = 'naive_bayes'
+priority_order = [EVALUATION_METHOD_WHITELIST, EVALUATION_METHOD_NAIVE_BAYES, EVALUATION_METHOD_BLACKLIST]
+
 nb_spam_level = 0.8  # nb_level greater_or_equal is spam
 nb_nospam_level = 0.5  # nb_level loweror equal is nospam
 # in between is undetermined
-nb_spam_class = {"spam": (1.0, nb_spam_level),
+nb_spam_classes = {"spam": (1.0, nb_spam_level),
                  "undetermined": (nb_spam_level, nb_nospam_level),
                  "nospam": (nb_nospam_level, 0.0)}
 char_replaces = {'"': ' ', "\n": " ", "_": " ", ",": " ", "-": " ", "+": " ", "„": " ", "’": " ", "“": " ",
