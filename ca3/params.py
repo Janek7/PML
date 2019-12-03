@@ -26,8 +26,8 @@ nb_spam_level = 0.8  # nb_level greater_or_equal is spam
 nb_nospam_level = 0.5  # nb_level loweror equal is nospam
 # in between is undetermined
 nb_spam_classes = {"spam": (1.0, nb_spam_level),
-                 "undetermined": (nb_spam_level, nb_nospam_level),
-                 "nospam": (nb_nospam_level, 0.0)}
+                   "undetermined": (nb_spam_level, nb_nospam_level),
+                   "nospam": (nb_nospam_level, 0.0)}
 char_replaces = {'"': ' ', "\n": " ", "_": " ", ",": " ", "-": " ", "+": " ", "„": " ", "’": " ", "“": " ",
                  "%": " ", ".": " ", "\t": " ", "[": " ", "]": " ", "<": " ", ">": " ", "/": " ", "=": " ",
                  "(": " ", ")": " ", "…": " ", "  ": " "}

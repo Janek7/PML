@@ -7,7 +7,8 @@ k_max_predict = [0]
 # Parameter for file handling
 input_file = 'iris_with_header.data'
 output_file = 'ca2.output'
-csv_separator = ','
+output_filename_prepared_data = 'ca2_prepared_data.output'
+csv_separator = ';'
 csv_line_separator = '\n'
 output_file_line_break = '\n'
 section_header = lambda x: (' ' + x + ' ').center(50, '-')

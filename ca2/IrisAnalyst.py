@@ -1,8 +1,7 @@
 import numpy as np
-from sklearn.linear_model import LogisticRegression
 from sklearn.model_selection import train_test_split
 from ca2.ca2_params import *
-from ca2.classifiers.ensemble_wrappers import VotingClassifierWrapper, StackingClassifierWrapper
+from ca2.classifiers.ensemble_wrappers import VotingClassifierWrapper
 from ca2.classifiers.k_nearest_neighbour import KnnClassifierWrapper
 from ca2.classifiers.random_forest import RfClassifierWrapper
 from ca2.classifiers.support_vector_machine import SvmClassifierWrapper
@@ -62,11 +61,6 @@ class IrisAnalyst:
         vote_classifier.train(X_train, y_train)
         self.ensemble_vote_accuracy = rf_classifier.validate(X_test, y_test)
 
-        # stacking_classifier = StackingClassifierWrapper(
-        #     [knn_classifier.classifier, svm_classifier.classifier, rf_classifier.classifier], LogisticRegression())
-        # stacking_classifier.train(X_train, y_train)
-        # self.ensemble_stacking_accuracy = stacking_classifier.validate(X_test, y_test)
-
         # write results
         self.write_file()
 
@@ -90,9 +84,14 @@ class IrisAnalyst:
         data = []
         for line in lines:
             new_line = [float(e) for idx, e in enumerate(line) if idx in feature_col_indices]
-            for calc_feature in calc_features:
+            for calc_feature in calc_features:  # Todo: calc features davor berechnen
                 new_line.append(calc_feature(new_line))
             data.append(new_line)
+
+        # save prepared data
+        with open(output_filename_prepared_data, 'w') as prepared_data_file:
+            for line in lines:
+                prepared_data_file.write('{}\n'.format(str(line)))
 
         # transform to numpy arrays
         self.X = np.array([np.array(line) for line in data])
@@ -142,8 +141,6 @@ class IrisAnalyst:
         lines.append('support vector machine: {}%'.format(int(round(self.svm_accuracy * 100))))
         lines.append('random forest: {}%'.format(int(round(self.rf_accuracy * 100))))
         lines.append('ensemble learning vote: {}%'.format(int(round(self.ensemble_vote_accuracy * 100))))
-        lines.append('ensemble learning stacking (logistic regression): {}%'.format(
-            int(round(self.ensemble_stacking_accuracy * 100))))
 
         # write lines to file
         with open(output_file, 'w') as file:
