@@ -1,16 +1,21 @@
 import numpy as np
+from sklearn.ensemble import RandomForestClassifier, VotingClassifier
+from sklearn.metrics import accuracy_score
 from sklearn.model_selection import train_test_split
+from sklearn.neighbors import KNeighborsClassifier
+from sklearn.svm import SVC
+
 from ca2.ca2_params import *
-from ca2.classifiers.ensemble_wrappers import VotingClassifierWrapper
-from ca2.classifiers.k_nearest_neighbour import KnnClassifierWrapper
-from ca2.classifiers.random_forest import RfClassifierWrapper
-from ca2.classifiers.support_vector_machine import SvmClassifierWrapper
 from ca2.knn_particular_analysis.knn_particular_analysis import ParticularKnnAnalyst
 
 
 class IrisAnalyst:
     X = None
+    X_train = None
+    X_test = None
     y = None
+    y_train = None
+    y_test = None
     label_map = None
     number_of_records = None
     number_of_records_after_cleaning = None
@@ -39,27 +44,16 @@ class IrisAnalyst:
         self.kmp_table_cleaned = self.particular_knn_analyst.get_kmp_table()
 
         # classifier
-        X_train, X_test, y_train, y_test = train_test_split(self.X, self.y, test_size=1 - trainig_size)
-
-        knn_classifier = KnnClassifierWrapper()
-        knn_classifier.train(X_train, y_train)
-        self.knn_accuracy = knn_classifier.validate(X_test, y_test)
-        # knn_classifier.plot(save_fig)
-
-        svm_classifier = SvmClassifierWrapper()
-        svm_classifier.train(X_train, y_train)
-        self.svm_accuracy = svm_classifier.validate(X_test, y_test)
-        # svm_classifier.plot(save_fig)
-
-        rf_classifier = RfClassifierWrapper()
-        rf_classifier.train(X_train, y_train)
-        self.rf_accuracy = rf_classifier.validate(X_test, y_test)
-        # rf_classifier.plot2(save_fig)
-
-        vote_classifier = VotingClassifierWrapper(
-            [('knn', knn_classifier.classifier), ('svm', svm_classifier.classifier), ('rf', rf_classifier.classifier)])
-        vote_classifier.train(X_train, y_train)
-        self.ensemble_vote_accuracy = rf_classifier.validate(X_test, y_test)
+        self.X_train, self.X_test, self.y_train, self.y_test = train_test_split(self.X, self.y,
+                                                                                test_size=1 - trainig_size)
+        knn_classifier = KNeighborsClassifier(k, weights=weights, algorithm=algorithm)
+        self.knn_accuracy = self.apply_classifier(knn_classifier)
+        svm_classifier = SVC(kernel=kernel, gamma=gamma, C=C)
+        self.svm_accuracy = self.apply_classifier(svm_classifier)
+        rf_classifier = RandomForestClassifier(n_estimators=n_estimators, random_state=random_state)
+        self.rf_accuracy = self.apply_classifier(rf_classifier)
+        self.ensemble_vote_accuracy = self.apply_classifier(VotingClassifier(
+            [('knn', knn_classifier), ('svm', svm_classifier), ('rf', rf_classifier)]))
 
         # write results
         self.write_file()
@@ -107,6 +101,16 @@ class IrisAnalyst:
             if kmp_value in k_max_predict:
                 self.X = np.delete(self.X, self.kmp_table[kmp_value], axis=0)
                 self.y = np.delete(self.y, self.kmp_table[kmp_value], axis=0)
+
+    def apply_classifier(self, classifier):
+        """
+        trains a given classifier and test with test data
+        :param classifier: sklearn estimator object
+        :return: accuracy score
+        """
+        classifier.fit(self.X_train, self.y_train)
+        predictions = classifier.predict(self.X_test)
+        return accuracy_score(self.y_test, predictions)
 
     def write_file(self):
         """
