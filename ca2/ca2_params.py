@@ -1,6 +1,6 @@
 # Parameter for data selection
 feature_cols = ['sepal_length', 'sepal_width', 'petal_length', 'petal_width']  #
-calc_features = []  # [lambda x: x[0] * 2]
+calc_features = [lambda x: x[0] * 2]
 line_pre_filter = 'idx not in []'
 k_max_predict = [0]
 

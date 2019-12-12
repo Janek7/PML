@@ -77,14 +77,14 @@ class IrisAnalyst:
         # filter features and append calc_features
         data = []
         for line in lines:
-            new_line = [float(e) for idx, e in enumerate(line) if idx in feature_col_indices]
-            for calc_feature in calc_features:  # Todo: calc features davor berechnen
-                new_line.append(calc_feature(new_line))
-            data.append(new_line)
+            float_line = [float(e) for e in line[:-1]]
+            calc_feature_values = [calc_feature(float_line) for calc_feature in calc_features]
+            filtered_line = [e for idx, e in enumerate(float_line) if idx in feature_col_indices]
+            data.append(filtered_line + calc_feature_values)
 
         # save prepared data
         with open(output_filename_prepared_data, 'w') as prepared_data_file:
-            for line in lines:
+            for line in data:
                 prepared_data_file.write('{}\n'.format(str(line)))
 
         # transform to numpy arrays
