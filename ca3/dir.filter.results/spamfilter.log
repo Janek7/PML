@@ -1,0 +1,31 @@
+blacklist:
+['uclaeditorjake3@gmail.com', 'Frederik.Dietrich@Spiratec-AG.com']
+
+
+whitelist:
+['Frederik.Dietrich@Spiratec-AG.com', '@gerten.de']
+
+
+directory_laden(dir.spam\):
+dict_keys(['2018-01-09 Möchten Sie mehr über die zukunftsweise.txt', '2018-04-25 WEBINAR Get pay-per-use IT outcomes on-.txt', '2018-06-21 E-3 Update Newsletter.txt', '2018-06-28 E-3 Newsletter.txt', '2018-07-10 Urgent customer notification.txt', '2018-09-13 E-3 Update Newsletter.txt', '2018-09-20 E-3 Update Newsletter.txt', '2018-09-27 E-3 Newsletter.txt', '2018-10-04 Die aktuelle Meinung der SAP Community .txt', '2018-10-11 Die aktuelle Meinung der SAP Community .txt', '2018-10-25 E-3 Newsletter.txt', '2018-10-25 E-3 Update Newsletter.txt', '2018-11-08 Die aktuelle Meinung der SAP Community .txt', '2018-11-13 LAST CALL! OPC UA Workshop in Dublin on.txt', '2018-11-15 E-3 Update Newsletter.txt', '2018-11-22 E-3 Newsletter.txt', '2018-11-26 LED-Leuchte für Höfe Niederlassungen Hö.txt'])
+
+
+directory_laden(dir.nospam\):
+dict_keys(['2018-03-23 Bestellung in der Bibliothek für Gerten.txt', '2018-04-10 Bestellung in der Bibliothek für Gerten.txt', '2018-10-09 Gebäude H - Nutzung des neuen Treppentu.txt', '2018-10-29 UIP SpiraTec AG.txt', '2018-11-07 Informatik-Kolloquium kommt Mobile Paym.txt', '2018-11-08 Social Engineering bei Spam-Mails.txt', '2018-11-08 Tagung der Campus ITGefälschte Bewerbun.txt', '2018-11-10 WG Flyer UIB.txt', '2018-11-13 AW UIP SpiraTec AG.txt', '2018-11-13 Ergebnisse und Zusammenfassung PÜ1.txt', '2018-11-13 WIA Präsentation Normalisierung.txt', '2018-11-14 Kassenschluss im Haushaltsjahr 2018.txt', '2018-11-19 AW PÜ2 - Finale Version.txt', '2018-11-19 Foerderangebote und Ausschreibungen - M.txt', '2018-11-20 Ausfall der Brandmeldeanlage - Bitte im.txt', '2018-11-21 Einladung zur Dienstbesprechung.txt', '2018-11-23 oc.informatik.txt'])
+
+
+wordtable naive bayes (dir.filter.results\nb.wordtable): 3082 entries
+
+
+directory_laden(dir.mail.input\):
+dict_keys(['2018-03-21 Kooperationsmöglichkeiten im Bereich In.txt', '2018-04-10 Bestellung in der Bibliothek für Gerten.txt', '2018-06-28 E-3 Newsletter.txt', '2018-07-07 Hello Professor Gerten. I am UCLA journ.txt', '2018-11-23 Informatik-Kolloquium das Internet of T.txt', '2018-12-10 Testmail zur Bestimmung des undetermine.txt'])
+
+
+processing mails:
+[blacklist] 2018-03-21 Kooperationsmöglichkeiten im Bereich In.txt
+[nospam] 2018-04-10 Bestellung in der Bibliothek für Gerten.txt
+[spam] 2018-06-28 E-3 Newsletter.txt
+[blacklist] 2018-07-07 Hello Professor Gerten. I am UCLA journ.txt
+[nospam] 2018-11-23 Informatik-Kolloquium das Internet of T.txt
+[nospam] 2018-12-10 Testmail zur Bestimmung des undetermine.txt
+processed mails 6
