@@ -1,0 +1,24 @@
+[Analysis of iris.data]
+Number of records: 150
+
+------------------ KMP analysis ------------------
+KMP 0: 8 [70, 72, 83, 106, 119, 133, 138, 149]
+KMP 1: 1 [56]
+KMP 2: 4 [85, 123, 134, 146]
+KMP 3: 4 [77, 121, 126, 127]
+KMP 4: 5 [52, 63, 101, 141, 142]
+
+---------- KMP analysis after cleaning -----------
+KMP 0: 0 []
+KMP 1: 1 [120]
+KMP 2: 2 [72, 110]
+KMP 3: 2 [115, 116]
+KMP 4: 1 [103]
+
+Number of records after cleaning: 131
+
+----------- Classifier accuracy scores -----------
+k nearest neighbour: 98%
+support vector machine: 100%
+random forest: 98%
+ensemble learning vote: 98%
