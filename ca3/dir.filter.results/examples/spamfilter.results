@@ -1,0 +1,71 @@
+spamfilter.py [1.4] 10.12.2018
+   priorityorder: ('whitelist', 'blacklist', 'naive_bayes')
+   nb_spam_class: {'spam': (1.0, 0.67), 'undetermined': (0.67, 0.33), 'nospam': (0.33, 0.0)}
+================================================================================
+
+Von:	Frederik Dietrich <Frederik.Dietrich@Spiratec-AG.com>
+Gesendet:	Mittwoch, 21. März 2018 15:34
+An:	r.gerten@hs-mannheim.de
+Betreff:	Kooperationsmöglichkeiten im Bereich Industrial IT zwischen HS Mannheim und SpiraTec AG
+------------
+   mail_probality:  0.24535974166338753
+   words_probality: 0.2500687807197627
+   spam_probality:  0.2477142611915751
+   spam_class:      whitelist
+================================================================================
+
+Von:	Im Auftrag der Bibliothek der HS Mannheim <service24@ibs-bw.de>
+Gesendet:	Dienstag, 10. April 2018 14:50
+An:	r.gerten@hs-mannheim.de
+Betreff:	Bestellung in der Bibliothek für: Gerten, Rainer
+------------
+   mail_probality:  0.13451905163979466
+   words_probality: 0.1494366662801927
+   spam_probality:  0.14197785895999368
+   spam_class:      nospam
+================================================================================
+
+Von:	E-3 Magazin <web@b4bmedia.net>
+Gesendet:	Donnerstag, 28. Juni 2018 14:17
+An:	r.gerten@hs-mannheim.de
+Betreff:	E-3 Newsletter
+------------
+   mail_probality:  0.8619517839948165
+   words_probality: 0.8727503055814895
+   spam_probality:  0.867351044788153
+   spam_class:      spam
+================================================================================
+
+Von:	Jake Carpenter <uclaeditorjake3@gmail.com>
+Gesendet:	Samstag, 7. Juli 2018 04:04
+An:	r.gerten@hs-mannheim.de
+Betreff:	Hello Professor Gerten. I am UCLA journal manuscript editor, Jake Carpenter.
+------------
+   mail_probality:  0.7241364727709266
+   words_probality: 0.7503600778898398
+   spam_probality:  0.7372482753303833
+   spam_class:      blacklist
+================================================================================
+
+Von:	Professoren <professoren-bounces@ml.hs-mannheim.de> im Auftrag von Oliver Hummel <o.hummel@hs-mannheim.de>
+Gesendet:	Freitag, 23. November 2018 12:29
+An:	professoren@hs-mannheim.de; professoren-ruhestand@hs-mannheim.de; mitarbeiter@hs-mannheim.de
+Betreff:	[Professoren] Informatik-Kolloquium: das Internet of Things naht unaufhaltsam
+Anlagen:	Abstract 27-11-18.pdf
+------------
+   mail_probality:  0.28980041598955186
+   words_probality: 0.30102777478885306
+   spam_probality:  0.2954140953892025
+   spam_class:      nospam
+================================================================================
+
+Von:	Testsender <sender@test.de>
+Gesendet:	Dienstag, 10.12.2018 14:00
+An:	r.gerten@hs-mannheim.de
+Betreff:	Testmail zur Bestimmung des undetermined Bereichs
+------------
+   mail_probality:  0.5132197722398879
+   words_probality: 0.5398109282210151
+   spam_probality:  0.5265153502304515
+   spam_class:      undetermined
+================================================================================

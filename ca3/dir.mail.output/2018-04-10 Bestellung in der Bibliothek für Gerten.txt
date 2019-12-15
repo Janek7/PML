@@ -1,5 +1,5 @@
 XSpam: nospam
-XSpamProbability: 0.1402503295101576
+XSpamProbability: 0.13651665032854993
 Von:	Im Auftrag der Bibliothek der HS Mannheim <service24@ibs-bw.de>
 Gesendet:	Dienstag, 10. April 2018 14:50
 An:	r.gerten@hs-mannheim.de

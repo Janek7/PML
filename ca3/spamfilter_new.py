@@ -29,6 +29,8 @@ KEY_SP_MAILS = 'spam_mails'
 KEY_NS_MAILS = 'no_spam_mails'
 KEY_SP_WORDS = 'spam_mail_words'
 KEY_NS_WORDS = 'no_spam_mail_words'
+KEY_WORDS_PROBABILITY = 'words_probability'
+KEY_MAIL_PROBABILITY = 'mails_probability'
 
 KEY_XSPAM_PROBABILITY = 'x_spam_probability'
 KEY_WORDS = 'words'
@@ -120,11 +122,6 @@ def create_evaluation_table(mails):
             else:
                 table[word][KEY_MAILS] = 1
 
-    for word in table:
-        table[word][KEY_PROBABILITY] = statistics.mean([table[word][KEY_MAILS], table[word][KEY_TOTAL]])
-        # table[word][KEY_TOTAL] /= len(mails)
-        # table[word][KEY_MAILS] /= len(mails)
-
     return table
 
 
@@ -146,15 +143,18 @@ nb_table = {word: {
     KEY_SP_MAILS: spam_table[word][KEY_MAILS] if word in spam_table else 0,
     KEY_SP_WORDS: spam_table[word][KEY_TOTAL] if word in spam_table else 0,
     KEY_NS_MAILS: no_spam_table[word][KEY_MAILS] if word in no_spam_table else 0,
-    KEY_NS_WORDS: no_spam_table[word][KEY_TOTAL] if word in no_spam_table else 0,
-    KEY_PROBABILITY: ((spam_table[word][KEY_PROBABILITY] if word in spam_table else 0) / (
-            (spam_table[word][KEY_PROBABILITY] if word in spam_table else 0)
-            + (no_spam_table[word][KEY_PROBABILITY] if word in no_spam_table else 0)))
+    KEY_NS_WORDS: no_spam_table[word][KEY_TOTAL] if word in no_spam_table else 0
 } for word in list(set(words))}
+
+for word in nb_table:
+    temp = nb_table[word][KEY_SP_MAILS] + nb_table[word][KEY_NS_MAILS]
+    nb_table[word][KEY_MAIL_PROBABILITY] = nb_table[word][KEY_SP_MAILS] / temp if temp != 0 else 0  # prevent / 0
+    temp = nb_table[word][KEY_SP_WORDS] + nb_table[word][KEY_NS_WORDS]
+    nb_table[word][KEY_WORDS_PROBABILITY] = nb_table[word][KEY_SP_WORDS] / temp if temp != 0 else 0  # prevent / 0
 
 nb_table_file_name = dir_results + filename_nbwordtable
 table_file = open(abspath(nb_table_file_name), 'w')
-for word in nb_table:
+for word in sorted(nb_table):
     table_file.write('{}: {}\n'.format(word, nb_table[word]))
 table_file.close()
 
@@ -181,20 +181,21 @@ def naive_bayes(mail_dict):
     :return:
     """
     word_set = set(mail_dict[KEY_WORDS])
-    mail_dict[KEY_TOTAL] = 'SOON'
-    mail_dict[KEY_MAILS] = 'SOON'
+    mail_dict[KEY_MAIL_PROBABILITY] = sum([nb_table[word][KEY_MAIL_PROBABILITY] if word in nb_table else 0
+                                           for word in word_set]) / len(word_set)
+    mail_dict[KEY_WORDS_PROBABILITY] = sum([nb_table[word][KEY_WORDS_PROBABILITY] if word in nb_table else 0
+                                            for word in word_set]) / len(word_set)
 
-    x_spam_probability = sum([nb_table[word][KEY_PROBABILITY] if word in nb_table else 0
-                              for word in word_set]) / len(word_set)
+    x_spam_probability = statistics.mean([mail_dict[KEY_MAIL_PROBABILITY], mail_dict[KEY_WORDS_PROBABILITY]])
     if x_spam_probability >= nb_spam_classes['spam'][1]:
         x_spam = 'spam'
     elif x_spam_probability <= nb_spam_classes['nospam'][0]:
         x_spam = 'nospam'
     else:
         x_spam = 'undetermined'
-    # if is executed before evaluation with black and whitelist
-    # if mail_dict[KEY_XSPAM] not in [X_SPAM_VALUE_BLACKLIST, X_SPAM_VALUE_WHITELIST]:
-    mail_dict[KEY_XSPAM] = x_spam
+
+    if mail_dict[KEY_XSPAM] is None:  # prevent override of black and whitelist
+        mail_dict[KEY_XSPAM] = x_spam
     mail_dict[KEY_XSPAM_PROBABILITY] = x_spam_probability
 
 
@@ -206,7 +207,7 @@ def whitelist(mail_dict):
     :param naive_bayes_not_last: flag if naive_bayes evaluation is last in the priority order
     :return:
     """
-    if any(word in white_list for word in mail_dict[KEY_SENDER]):
+    if any(mail_dict[KEY_SENDER] in word for word in white_list):
         mail_dict[KEY_XSPAM] = X_SPAM_VALUE_WHITELIST
 
 
@@ -221,16 +222,17 @@ def blacklist(mail_dict):
         mail_dict[KEY_XSPAM] = X_SPAM_VALUE_BLACKLIST
 
 
-evaluations = {EVALUATION_METHOD_WHITELIST: whitelist,
-               EVALUATION_METHOD_BLACKLIST: blacklist,
-               EVALUATION_METHOD_NAIVE_BAYES: naive_bayes}
+# "whitelist", "blacklist", "naive_bayes"
+evaluations = {'whitelist': whitelist,
+               'blacklist': blacklist,
+               'naive_bayes': naive_bayes}
 
 # do evaluation and write classification results
 
 log_lines.append('processing mails:')
 for filename, mail_dict in input_mails.items():
 
-    for evaluation_method in priority_order:
+    for evaluation_method in priorityorder:
         evaluations[evaluation_method](mail_dict)
 
     # write results
@@ -249,7 +251,7 @@ log_lines.append('processed mails {}'.format(len(input_mails)))
 # Bewertungsübersicht fuer Mail-Eingang ausgeben
 with open(abspath(dir_results + filename_results), 'w') as spamfilter_results_file:
     spamfilter_results_file.write('{} [{}] {}\n'.format(__file__, str(VERSION), date.today().strftime("%d.%m.%Y")))
-    spamfilter_results_file.write('priorityorder: {}\n'.format(priority_order))
+    spamfilter_results_file.write('priorityorder: {}\n'.format(priorityorder))
     spamfilter_results_file.write('nb_spam_class: {}\n\n'.format(nb_spam_classes))
 
     spamfilter_results_file.write('Evaluated emails:\n')
@@ -257,15 +259,15 @@ with open(abspath(dir_results + filename_results), 'w') as spamfilter_results_fi
         spamfilter_results_file.write('=' * 60 + '\n\n')
         spamfilter_results_file.write(mail_dict[KEY_HEADER] + '\n')
         spamfilter_results_file.write('-' * 10 + '\n')
-        spamfilter_results_file.write(' ' * 3 + 'mail_probability: {}\n'.format(mail_dict[KEY_MAILS]))
-        spamfilter_results_file.write(' ' * 3 + 'words_probability: {}\n'.format(mail_dict[KEY_TOTAL]))
+        spamfilter_results_file.write(' ' * 3 + 'mail_probability: {}\n'.format(mail_dict[KEY_MAIL_PROBABILITY]))
+        spamfilter_results_file.write(' ' * 3 + 'words_probability: {}\n'.format(mail_dict[KEY_WORDS_PROBABILITY]))
         spamfilter_results_file.write(' ' * 3 + 'spam_probability: {}\n'.format(mail_dict[KEY_XSPAM_PROBABILITY]))
         spamfilter_results_file.write(' ' * 3 + 'spam_class: {}\n'.format(mail_dict[KEY_XSPAM]))
 
 # Log ausgeben
 with open(abspath(dir_results + filename_logfile), 'w') as log_file:
     for line in log_lines:
-        log_file.write(line + ('\n' if line != '' else ''))
+        log_file.write(line + ('\n' if line != '\n' else ''))
 
 # ----------------------------------------------
 # cleanup

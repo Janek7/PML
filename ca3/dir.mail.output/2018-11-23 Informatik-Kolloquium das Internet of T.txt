@@ -1,5 +1,5 @@
 XSpam: nospam
-XSpamProbability: 0.23333738811474958
+XSpamProbability: 0.23044313849089157
 Von:	Professoren <professoren-bounces@ml.hs-mannheim.de> im Auftrag von Oliver Hummel <o.hummel@hs-mannheim.de>
 Gesendet:	Freitag, 23. November 2018 12:29
 An:	professoren@hs-mannheim.de; professoren-ruhestand@hs-mannheim.de; mitarbeiter@hs-mannheim.de

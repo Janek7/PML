@@ -1,5 +1,5 @@
 XSpam: spam
-XSpamProbability: 0.8217982237774357
+XSpamProbability: 0.8178740068707693
 Von:	E-3 Magazin <web@b4bmedia.net>
 Gesendet:	Donnerstag, 28. Juni 2018 14:17
 An:	r.gerten@hs-mannheim.de
