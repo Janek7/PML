@@ -1,21 +1,34 @@
 : {'spam_mails': 3, 'spam_mail_words': 3, 'no_spam_mails': 4, 'no_spam_mail_words': 4, 'mails_probability': 0.42857142857142855, 'words_probability': 0.42857142857142855}
+***: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 2, 'no_spam_mail_words': 2, 'mails_probability': 0.0, 'words_probability': 0.0}
+09:56: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.0, 'words_probability': 0.0}
+10:00: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.0, 'words_probability': 0.0}
+11:00: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 11t: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 11th: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
+12:00: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.0, 'words_probability': 0.0}
+12:06: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.0, 'words_probability': 0.0}
+12:09: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.0, 'words_probability': 0.0}
+12:21: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.0, 'words_probability': 0.0}
 12t: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 12th: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
+15:30: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 2, 'no_spam_mail_words': 2, 'mails_probability': 0.0, 'words_probability': 0.0}
 16th: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
+1:1: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 2ndFl: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 9Egandcrab: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.0, 'words_probability': 0.0}
+@m: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 A: {'spam_mails': 14, 'spam_mail_words': 463, 'no_spam_mails': 2, 'no_spam_mail_words': 2, 'mails_probability': 0.875, 'words_probability': 0.9956989247311828}
 A206: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.0, 'words_probability': 0.0}
 AC: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 AG: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 2, 'no_spam_mail_words': 6, 'mails_probability': 0.3333333333333333, 'words_probability': 0.14285714285714285}
 AI: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 API: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.0, 'words_probability': 0.0}
+AUS:: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 AV: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
-AW:: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 2, 'no_spam_mail_words': 2, 'mails_probability': 0.0, 'words_probability': 0.0}
+AW:: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 2, 'no_spam_mail_words': 3, 'mails_probability': 0.0, 'words_probability': 0.0}
 AWS: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 Aber: {'spam_mails': 2, 'spam_mail_words': 5, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
+Abholort:: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 2, 'no_spam_mail_words': 2, 'mails_probability': 0.0, 'words_probability': 0.0}
 Ablauforganisation: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 Abmelden: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 Abonnieren: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
@@ -39,11 +52,13 @@ Alarmierungsfall: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'n
 All: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 Alle: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 Als: {'spam_mails': 2, 'spam_mail_words': 2, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
+Altlasten?: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 Altwelt: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 Alves: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.0, 'words_probability': 0.0}
 Am: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 Amts: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 An: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 2, 'no_spam_mail_words': 2, 'mails_probability': 0.3333333333333333, 'words_probability': 0.3333333333333333}
+An:: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 3, 'no_spam_mail_words': 4, 'mails_probability': 0.0, 'words_probability': 0.0}
 Ana: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 Analy: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 Analysen: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
@@ -56,6 +71,7 @@ Anfragen: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_m
 Ang: {'spam_mails': 1, 'spam_mail_words': 2, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 Anga: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 Angebot: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
+Angebot:: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 Angebote: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 Angesichts: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 Angreifer: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_words': 2, 'mails_probability': 0.0, 'words_probability': 0.0}
@@ -72,6 +88,7 @@ Apotheker: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_
 App: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.0, 'words_probability': 0.0}
 Appliance: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 Applications: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
+Applications:: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 Applied: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 3, 'no_spam_mail_words': 3, 'mails_probability': 0.0, 'words_probability': 0.0}
 Applikationen: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 Arbeitsaufwand: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 2, 'no_spam_mail_words': 2, 'mails_probability': 0.0, 'words_probability': 0.0}
@@ -87,6 +104,7 @@ Aufgaben: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_m
 Aufl: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.0, 'words_probability': 0.0}
 Aufruf: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.0, 'words_probability': 0.0}
 Aufsi: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
+Aufsichtsrats:: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 2, 'no_spam_mail_words': 3, 'mails_probability': 0.0, 'words_probability': 0.0}
 Aufwand: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 2, 'no_spam_mail_words': 2, 'mails_probability': 0.0, 'words_probability': 0.0}
 Auge: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 2, 'no_spam_mail_words': 2, 'mails_probability': 0.0, 'words_probability': 0.0}
 Augenhöhe: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
@@ -144,6 +162,7 @@ Beste: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 1, 'no_spam_mail
 Bestellung: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 2, 'no_spam_mail_words': 2, 'mails_probability': 0.0, 'words_probability': 0.0}
 Bestellungen: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.0, 'words_probability': 0.0}
 Betreff: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.0, 'words_probability': 0.0}
+Betreff:: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 3, 'no_spam_mail_words': 4, 'mails_probability': 0.0, 'words_probability': 0.0}
 Betreffzeilen: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.0, 'words_probability': 0.0}
 Betrieb: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 Betriebsleiter: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 2, 'no_spam_mail_words': 2, 'mails_probability': 0.0, 'words_probability': 0.0}
@@ -183,6 +202,7 @@ Business: {'spam_mails': 3, 'spam_mail_words': 3, 'no_spam_mails': 0, 'no_spam_m
 Buzzwords: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 Bäss: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 Böbli: {'spam_mails': 1, 'spam_mail_words': 2, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
+Büro:: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 2, 'no_spam_mail_words': 2, 'mails_probability': 0.0, 'words_probability': 0.0}
 C: {'spam_mails': 14, 'spam_mail_words': 210, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 CALL!: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 CE: {'spam_mails': 1, 'spam_mail_words': 2, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
@@ -194,6 +214,7 @@ Camelot: {'spam_mails': 1, 'spam_mail_words': 7, 'no_spam_mails': 0, 'no_spam_ma
 Campus: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 3, 'no_spam_mail_words': 7, 'mails_probability': 0.0, 'words_probability': 0.0}
 Campuslizenz: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.0, 'words_probability': 0.0}
 Caroline: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.0, 'words_probability': 0.0}
+Cc:: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_words': 2, 'mails_probability': 0.0, 'words_probability': 0.0}
 Center: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 Cerd: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 Chain: {'spam_mails': 1, 'spam_mail_words': 6, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
@@ -283,6 +304,8 @@ Dies: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 2, 'no_spam_mail_
 Diese: {'spam_mails': 2, 'spam_mail_words': 2, 'no_spam_mails': 3, 'no_spam_mail_words': 4, 'mails_probability': 0.4, 'words_probability': 0.3333333333333333}
 Dieses: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 2, 'no_spam_mail_words': 2, 'mails_probability': 0.0, 'words_probability': 0.0}
 Dietrich: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 2, 'no_spam_mail_words': 7, 'mails_probability': 0.0, 'words_probability': 0.0}
+Dietrich;: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.0, 'words_probability': 0.0}
+Dietrich@spiratec: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 2, 'no_spam_mail_words': 4, 'mails_probability': 0.0, 'words_probability': 0.0}
 Differenzierungspunkte: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 Digital: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 Digitaler: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 2, 'no_spam_mail_words': 2, 'mails_probability': 0.0, 'words_probability': 0.0}
@@ -293,6 +316,7 @@ Din: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_w
 Dinge: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.0, 'words_probability': 0.0}
 Dipl: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 4, 'no_spam_mail_words': 4, 'mails_probability': 0.0, 'words_probability': 0.0}
 Director: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
+Disclaimer:: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 2, 'no_spam_mail_words': 2, 'mails_probability': 0.0, 'words_probability': 0.0}
 Diskussion: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 Distribution: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 Do: {'spam_mails': 1, 'spam_mail_words': 2, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
@@ -307,10 +331,13 @@ Drucker: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_ma
 Du: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 Dublin: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 Dur: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
+Duration:: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 Durchführung: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 2, 'no_spam_mail_words': 2, 'mails_probability': 0.0, 'words_probability': 0.0}
 E: {'spam_mails': 16, 'spam_mail_words': 255, 'no_spam_mails': 7, 'no_spam_mail_words': 24, 'mails_probability': 0.6956521739130435, 'words_probability': 0.9139784946236559}
+E!: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 E2: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.0, 'words_probability': 0.0}
 EAM: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
+EAR:: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 EMEA: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 EN: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 ERP: {'spam_mails': 2, 'spam_mail_words': 4, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
@@ -391,6 +418,7 @@ Falls: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail
 Fast: {'spam_mails': 2, 'spam_mail_words': 2, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 Faszination: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 Fax: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 3, 'no_spam_mail_words': 3, 'mails_probability': 0.0, 'words_probability': 0.0}
+Fax:: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 6, 'no_spam_mail_words': 6, 'mails_probability': 0.0, 'words_probability': 0.0}
 Fe: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 Features: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 Feb: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
@@ -404,9 +432,11 @@ Finance: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_ma
 Finanzministerium: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.0, 'words_probability': 0.0}
 Firma: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 2, 'no_spam_mail_words': 2, 'mails_probability': 0.0, 'words_probability': 0.0}
 Firmen: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
+Firmen:: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 Fisch: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 Fl: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 Fletcher: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
+Fletcher@MatrikonOPC: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 Flexibilität: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 Flor: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 Florian: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_words': 2, 'mails_probability': 0.0, 'words_probability': 0.0}
@@ -465,6 +495,8 @@ Gesc: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_
 Geschäftsbereich: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.0, 'words_probability': 0.0}
 Geschäftsreisen: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 Gese: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
+Gesellschaft:: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 2, 'no_spam_mail_words': 3, 'mails_probability': 0.0, 'words_probability': 0.0}
+Gesendet:: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 3, 'no_spam_mail_words': 4, 'mails_probability': 0.0, 'words_probability': 0.0}
 Gesetzgeber: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 Gespräch: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 Get: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
@@ -477,6 +509,7 @@ Gisa: {'spam_mails': 1, 'spam_mail_words': 2, 'no_spam_mails': 0, 'no_spam_mail_
 Glo: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 Global: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 Globale: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
+Glück!: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 Gmb: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 Goldschatz: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 Golfplatz: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
@@ -498,10 +531,12 @@ HP: {'spam_mails': 2, 'spam_mail_words': 7, 'no_spam_mails': 0, 'no_spam_mail_wo
 HPE: {'spam_mails': 2, 'spam_mail_words': 7, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 HRB: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 2, 'no_spam_mail_words': 3, 'mails_probability': 0.3333333333333333, 'words_probability': 0.25}
 Haftung: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 2, 'no_spam_mail_words': 2, 'mails_probability': 0.0, 'words_probability': 0.0}
+Haftungsausschluss:: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 2, 'no_spam_mail_words': 2, 'mails_probability': 0.0, 'words_probability': 0.0}
 Hallo: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 6, 'no_spam_mail_words': 12, 'mails_probability': 0.0, 'words_probability': 0.0}
 Hana: {'spam_mails': 5, 'spam_mail_words': 17, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 Handbuch: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 2, 'no_spam_mail_words': 2, 'mails_probability': 0.0, 'words_probability': 0.0}
 Handel: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
+Handel:: {'spam_mails': 2, 'spam_mail_words': 2, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 Har: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 Harvesting: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.0, 'words_probability': 0.0}
 Hauptsitz: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 2, 'no_spam_mail_words': 2, 'mails_probability': 0.0, 'words_probability': 0.0}
@@ -518,6 +553,7 @@ Heik: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_
 Heines: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 2, 'no_spam_mail_words': 3, 'mails_probability': 0.0, 'words_probability': 0.0}
 Henschel: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.0, 'words_probability': 0.0}
 Henter: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_words': 3, 'mails_probability': 0.0, 'words_probability': 0.0}
+Henter@spiratec: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.0, 'words_probability': 0.0}
 Her: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 Herausforderung: {'spam_mails': 2, 'spam_mail_words': 2, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 Herausforderungen: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
@@ -532,6 +568,7 @@ Hierbei: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_ma
 Hilfe: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.0, 'words_probability': 0.0}
 Hintergrund: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 2, 'no_spam_mail_words': 2, 'mails_probability': 0.0, 'words_probability': 0.0}
 Historischer: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
+HoP:: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 Hoch: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.0, 'words_probability': 0.0}
 Hochschul: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.0, 'words_probability': 0.0}
 Hochschule: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 10, 'no_spam_mail_words': 14, 'mails_probability': 0.0, 'words_probability': 0.0}
@@ -562,10 +599,15 @@ IOT: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_w
 IPython: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.0, 'words_probability': 0.0}
 IS: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 IT: {'spam_mails': 6, 'spam_mail_words': 20, 'no_spam_mails': 4, 'no_spam_mail_words': 9, 'mails_probability': 0.6, 'words_probability': 0.6896551724137931}
+IT!: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.0, 'words_probability': 0.0}
+IT:: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
+IT?: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 ITLab: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 Ich: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 8, 'no_spam_mail_words': 13, 'mails_probability': 0.1111111111111111, 'words_probability': 0.07142857142857142}
+Idee?: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 Ident: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 If: {'spam_mails': 2, 'spam_mail_words': 3, 'no_spam_mails': 2, 'no_spam_mail_words': 2, 'mails_probability': 0.5, 'words_probability': 0.6}
+Ignorieren:: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 Ihne: {'spam_mails': 1, 'spam_mail_words': 2, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 Ihnen: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 3, 'no_spam_mail_words': 4, 'mails_probability': 0.0, 'words_probability': 0.0}
 Ihr: {'spam_mails': 2, 'spam_mail_words': 8, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
@@ -590,11 +632,13 @@ Ing: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 2, 'no_spam_mail_w
 Ingelheim: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 2, 'no_spam_mail_words': 2, 'mails_probability': 0.0, 'words_probability': 0.0}
 Inhalt: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.0, 'words_probability': 0.0}
 Inhalte: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 4, 'no_spam_mail_words': 5, 'mails_probability': 0.0, 'words_probability': 0.0}
+Inhalten?: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.0, 'words_probability': 0.0}
 Inhaltlich: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 2, 'no_spam_mail_words': 2, 'mails_probability': 0.0, 'words_probability': 0.0}
 Innenleben: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.0, 'words_probability': 0.0}
 Innovation: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 Innovationstempo: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 Instandhaltung: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
+Instandhaltung:: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 Inte: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 Integraler: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 Integration: {'spam_mails': 2, 'spam_mail_words': 2, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
@@ -604,6 +648,7 @@ Intelligenz: {'spam_mails': 1, 'spam_mail_words': 4, 'no_spam_mails': 0, 'no_spa
 Interesse: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 International: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_words': 4, 'mails_probability': 0.0, 'words_probability': 0.0}
 Internet: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.0, 'words_probability': 0.0}
+Internet:: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 5, 'no_spam_mail_words': 5, 'mails_probability': 0.0, 'words_probability': 0.0}
 Investition: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 Investments: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 Inwieweit: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
@@ -649,6 +694,7 @@ Kein: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_
 Kemling: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 Kennwort: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_words': 4, 'mails_probability': 0.0, 'words_probability': 0.0}
 Kennwortschutz: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.0, 'words_probability': 0.0}
+Kennzeichnungsstatus:: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.0, 'words_probability': 0.0}
 Kern: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 Kernaufgabe: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 Klartext: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.0, 'words_probability': 0.0}
@@ -708,6 +754,7 @@ LO: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_wo
 LP: {'spam_mails': 2, 'spam_mail_words': 2, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 Labor: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 Lage: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
+Land!: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 Lange: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 Lastenverteilung: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 Laufe: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.0, 'words_probability': 0.0}
@@ -743,6 +790,7 @@ Lizenzmanagement: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'n
 Logic: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.0, 'words_probability': 0.0}
 Ludmilla: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 Ludwigshafen: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 2, 'no_spam_mail_words': 5, 'mails_probability': 0.0, 'words_probability': 0.0}
+Lufthansa:: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 Luis: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.0, 'words_probability': 0.0}
 LÖS: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 Läden: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
@@ -759,11 +807,13 @@ MAPI: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_
 ML1: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 ML3: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 MRP: {'spam_mails': 1, 'spam_mail_words': 4, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
+MRP?: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 MS: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 2, 'no_spam_mail_words': 2, 'mails_probability': 0.0, 'words_probability': 0.0}
 Machine: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.0, 'words_probability': 0.0}
 Mad: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 Magazin: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 Mail: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 5, 'no_spam_mail_words': 15, 'mails_probability': 0.16666666666666666, 'words_probability': 0.0625}
+Mail:: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 6, 'no_spam_mail_words': 7, 'mails_probability': 0.0, 'words_probability': 0.0}
 Mailadressen: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.0, 'words_probability': 0.0}
 Mails: {'spam_mails': 2, 'spam_mail_words': 2, 'no_spam_mails': 2, 'no_spam_mail_words': 13, 'mails_probability': 0.5, 'words_probability': 0.13333333333333333}
 Mailservers: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.0, 'words_probability': 0.0}
@@ -817,6 +867,7 @@ Mittelstandsunternehmens: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails
 Mittendrin: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 Mittwoch: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 2, 'no_spam_mail_words': 2, 'mails_probability': 0.0, 'words_probability': 0.0}
 Mobile: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.0, 'words_probability': 0.0}
+Mobile:: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 2, 'no_spam_mail_words': 3, 'mails_probability': 0.0, 'words_probability': 0.0}
 Mobili: {'spam_mails': 1, 'spam_mail_words': 2, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 Mobilitaet: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.0, 'words_probability': 0.0}
 Mobilität: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.0, 'words_probability': 0.0}
@@ -831,6 +882,7 @@ Möglichkeiten: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_s
 N: {'spam_mails': 13, 'spam_mail_words': 84, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 NAS: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.0, 'words_probability': 0.0}
 NO: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
+NZ:: {'spam_mails': 4, 'spam_mail_words': 4, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 Nach: {'spam_mails': 2, 'spam_mail_words': 3, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 Nachnamen: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_words': 2, 'mails_probability': 0.0, 'words_probability': 0.0}
 Nachricht: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 6, 'no_spam_mail_words': 10, 'mails_probability': 0.0, 'words_probability': 0.0}
@@ -866,6 +918,7 @@ Notfall: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_ma
 Notfalls: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 November: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 4, 'no_spam_mail_words': 5, 'mails_probability': 0.0, 'words_probability': 0.0}
 Now: {'spam_mails': 2, 'spam_mail_words': 2, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
+Now!: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 Nr: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 NumPy: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.0, 'words_probability': 0.0}
 Nutzern: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.0, 'words_probability': 0.0}
@@ -874,6 +927,7 @@ Nünchritz: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 2, 'no_spam_
 O: {'spam_mails': 14, 'spam_mail_words': 60, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 OP: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 OPC: {'spam_mails': 3, 'spam_mail_words': 5, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
+OTRS:: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.0, 'words_probability': 0.0}
 Off: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 Offene: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 Offic: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
@@ -907,6 +961,7 @@ Pandas: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mai
 Parallel: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 Partie: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 Partner: {'spam_mails': 2, 'spam_mail_words': 2, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
+Partner:: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 Partnerschaft: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 Passt: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.0, 'words_probability': 0.0}
 Passwort: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_words': 2, 'mails_probability': 0.0, 'words_probability': 0.0}
@@ -918,8 +973,10 @@ Personalisierung: {'spam_mails': 1, 'spam_mail_words': 2, 'no_spam_mails': 0, 'n
 Personen: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_words': 2, 'mails_probability': 0.0, 'words_probability': 0.0}
 Peter: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 3, 'no_spam_mail_words': 5, 'mails_probability': 0.25, 'words_probability': 0.16666666666666666}
 Pforzheim: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
+Ph:: {'spam_mails': 1, 'spam_mail_words': 2, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 Pha: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 Pharmaindustrie: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
+Phone:: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 2, 'no_spam_mail_words': 5, 'mails_probability': 0.0, 'words_probability': 0.0}
 Pionier: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 Planning: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 Planung: {'spam_mails': 1, 'spam_mail_words': 2, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
@@ -939,6 +996,7 @@ Praxis: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 1, 'no_spam_mai
 Pre: {'spam_mails': 1, 'spam_mail_words': 2, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 Predictive: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.0, 'words_probability': 0.0}
 Prinzip: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
+Priorität:: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.0, 'words_probability': 0.0}
 Priv: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 Priva: {'spam_mails': 3, 'spam_mail_words': 3, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 Private: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
@@ -950,6 +1008,7 @@ Produktivmandant: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'n
 Prof: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 5, 'no_spam_mail_words': 5, 'mails_probability': 0.0, 'words_probability': 0.0}
 Professoren: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 7, 'no_spam_mail_words': 9, 'mails_probability': 0.0, 'words_probability': 0.0}
 Professoreni: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 2, 'no_spam_mail_words': 3, 'mails_probability': 0.0, 'words_probability': 0.0}
+Professoreni@ml: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.0, 'words_probability': 0.0}
 Professorinnen: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.0, 'words_probability': 0.0}
 Profil: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 Prognosen: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
@@ -994,6 +1053,7 @@ Reg: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_w
 Regi: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 Regierungen: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 Registered: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 2, 'no_spam_mail_words': 3, 'mails_probability': 0.0, 'words_probability': 0.0}
+Registergericht:: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 2, 'no_spam_mail_words': 3, 'mails_probability': 0.0, 'words_probability': 0.0}
 Registration: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 2, 'no_spam_mail_words': 3, 'mails_probability': 0.0, 'words_probability': 0.0}
 Reic: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 Reif: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.0, 'words_probability': 0.0}
@@ -1003,6 +1063,7 @@ Ressourcen: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam
 Ressourcenmanagement: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.0, 'words_probability': 0.0}
 Ressourcenplanung: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 2, 'no_spam_mail_words': 2, 'mails_probability': 0.0, 'words_probability': 0.0}
 Reste: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.0, 'words_probability': 0.0}
+Restwoche!: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.0, 'words_probability': 0.0}
 Reutlingen: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.0, 'words_probability': 0.0}
 Revolution: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 Richtung: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 1, 'no_spam_mail_words': 2, 'mails_probability': 0.5, 'words_probability': 0.3333333333333333}
@@ -1029,6 +1090,7 @@ ST: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 2, 'no_spam_mail_wo
 STG: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 STRAHLER: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 Sac: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
+Sache:: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.0, 'words_probability': 0.0}
 Sachverhalte: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.0, 'words_probability': 0.0}
 Sal: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 Sales: {'spam_mails': 1, 'spam_mail_words': 3, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
@@ -1044,6 +1106,7 @@ Schatten: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_m
 Schein: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 Scheinwerfer: {'spam_mails': 1, 'spam_mail_words': 2, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 Schlusspunkt: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.0, 'words_probability': 0.0}
+Schläuchen?: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 Schmutziger: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 Schneider: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.0, 'words_probability': 0.0}
 Schnell: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.0, 'words_probability': 0.0}
@@ -1089,6 +1152,8 @@ Sicherheitskonzepten: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0
 Sicherheitssystem: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.0, 'words_probability': 0.0}
 Sicht: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.5, 'words_probability': 0.5}
 Sie: {'spam_mails': 4, 'spam_mail_words': 24, 'no_spam_mails': 14, 'no_spam_mail_words': 65, 'mails_probability': 0.2222222222222222, 'words_probability': 0.2696629213483146}
+Sie:: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 2, 'no_spam_mail_words': 2, 'mails_probability': 0.0, 'words_probability': 0.0}
+Sie?: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.0, 'words_probability': 0.0}
 Sind: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 Sinn: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.5, 'words_probability': 0.5}
 Situation: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 2, 'no_spam_mail_words': 2, 'mails_probability': 0.0, 'words_probability': 0.0}
@@ -1181,13 +1246,17 @@ Technologiepartner: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 
 Technology: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 Teil: {'spam_mails': 3, 'spam_mail_words': 3, 'no_spam_mails': 2, 'no_spam_mail_words': 2, 'mails_probability': 0.6, 'words_probability': 0.6}
 Tel: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 3, 'no_spam_mail_words': 3, 'mails_probability': 0.0, 'words_probability': 0.0}
+Tel:: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 4, 'no_spam_mail_words': 4, 'mails_probability': 0.0, 'words_probability': 0.0}
 Telefon: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 2, 'no_spam_mail_words': 2, 'mails_probability': 0.0, 'words_probability': 0.0}
+Telefon:: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.0, 'words_probability': 0.0}
 TensorFlow: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.0, 'words_probability': 0.0}
 Termin: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 3, 'no_spam_mail_words': 6, 'mails_probability': 0.0, 'words_probability': 0.0}
 Terminvorschläge: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 2, 'no_spam_mail_words': 2, 'mails_probability': 0.0, 'words_probability': 0.0}
 Terminübersicht: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.0, 'words_probability': 0.0}
 Terms: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 Teska: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_words': 3, 'mails_probability': 0.0, 'words_probability': 0.0}
+Teska;: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.0, 'words_probability': 0.0}
+Teska@spiratec: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.0, 'words_probability': 0.0}
 Thank: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 The: {'spam_mails': 2, 'spam_mail_words': 3, 'no_spam_mails': 2, 'no_spam_mail_words': 4, 'mails_probability': 0.5, 'words_probability': 0.42857142857142855}
 Thema: {'spam_mails': 2, 'spam_mail_words': 2, 'no_spam_mails': 3, 'no_spam_mail_words': 3, 'mails_probability': 0.4, 'words_probability': 0.4}
@@ -1200,6 +1269,7 @@ Thr: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_w
 Ticketing: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 2, 'no_spam_mail_words': 2, 'mails_probability': 0.0, 'words_probability': 0.0}
 Tier: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 Tim: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
+Time:: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 Times: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 Tool: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.0, 'words_probability': 0.0}
 Toolgestütze: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
@@ -1227,6 +1297,7 @@ UIB: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_w
 UIP: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 2, 'no_spam_mail_words': 7, 'mails_probability': 0.0, 'words_probability': 0.0}
 UNG: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 US: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
+US:: {'spam_mails': 4, 'spam_mail_words': 4, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 USMM: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 Uhr: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 3, 'no_spam_mail_words': 3, 'mails_probability': 0.0, 'words_probability': 0.0}
 Ulm: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 2, 'no_spam_mail_words': 2, 'mails_probability': 0.0, 'words_probability': 0.0}
@@ -1252,6 +1323,7 @@ Unsu: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_
 Unt: {'spam_mails': 1, 'spam_mail_words': 3, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 Unter: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 2, 'no_spam_mail_words': 2, 'mails_probability': 0.0, 'words_probability': 0.0}
 Unternehmen: {'spam_mails': 8, 'spam_mail_words': 12, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.8888888888888888, 'words_probability': 0.9230769230769231}
+Unternehmen?: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 Unternehmens: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.0, 'words_probability': 0.0}
 Update: {'spam_mails': 5, 'spam_mail_words': 5, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 Urgent: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
@@ -1261,9 +1333,11 @@ Us: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_wo
 Use: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 Uta: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_words': 2, 'mails_probability': 0.0, 'words_probability': 0.0}
 Utilities: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
+Utilities?: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 V: {'spam_mails': 11, 'spam_mail_words': 48, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 VC: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 VIC: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
+VT:: {'spam_mails': 4, 'spam_mail_words': 4, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 Vacaville: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 2, 'no_spam_mail_words': 2, 'mails_probability': 0.0, 'words_probability': 0.0}
 Vallè: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 Value: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
@@ -1315,6 +1389,7 @@ Virtuelle: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_
 Visier: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.0, 'words_probability': 0.0}
 Voice: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 Von: {'spam_mails': 3, 'spam_mail_words': 3, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.75, 'words_probability': 0.75}
+Von:: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 3, 'no_spam_mail_words': 4, 'mails_probability': 0.0, 'words_probability': 0.0}
 Vor: {'spam_mails': 4, 'spam_mail_words': 4, 'no_spam_mails': 2, 'no_spam_mail_words': 2, 'mails_probability': 0.6666666666666666, 'words_probability': 0.6666666666666666}
 Vorbesprechung: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.0, 'words_probability': 0.0}
 Vordergrund: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
@@ -1326,6 +1401,7 @@ Vorsatz: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_ma
 Vorschlag: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.0, 'words_probability': 0.0}
 Vorsi: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 Vorsitzender: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 2, 'no_spam_mail_words': 3, 'mails_probability': 0.0, 'words_probability': 0.0}
+Vorstand:: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 2, 'no_spam_mail_words': 3, 'mails_probability': 0.0, 'words_probability': 0.0}
 Vorteil: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 Vorteile: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 Vortrag: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.0, 'words_probability': 0.0}
@@ -1370,6 +1446,7 @@ Werbung: {'spam_mails': 1, 'spam_mail_words': 2, 'no_spam_mails': 0, 'no_spam_ma
 Wert: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 Wertschöpfungsprozesse: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 Wettbewerb: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
+Wettbewerbsvorteil:: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 Wettbewerbsvorteile: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 Wetterauer: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 Wh: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
@@ -1387,6 +1464,7 @@ Wissenschaftler: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no
 Wittsack: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 8, 'no_spam_mail_words': 8, 'mails_probability': 0.0, 'words_probability': 0.0}
 Wo: {'spam_mails': 2, 'spam_mail_words': 4, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 Woche: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 6, 'no_spam_mail_words': 7, 'mails_probability': 0.0, 'words_probability': 0.0}
+Woche:: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.0, 'words_probability': 0.0}
 Wochenende: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.0, 'words_probability': 0.0}
 Wood: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 Word: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_words': 3, 'mails_probability': 0.0, 'words_probability': 0.0}
@@ -1414,6 +1492,7 @@ Zeiten: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mai
 Zeitpunkt: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.0, 'words_probability': 0.0}
 Zeitungssterben: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 Zentrum: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.5, 'words_probability': 0.5}
+Zielland:: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.0, 'words_probability': 0.0}
 Zielperson: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.0, 'words_probability': 0.0}
 Zu: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 Zuga: {'spam_mails': 2, 'spam_mail_words': 2, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
@@ -1429,16 +1508,19 @@ Zwilling: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 2, 'no_spam_m
 Zählen: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 a: {'spam_mails': 16, 'spam_mail_words': 2110, 'no_spam_mails': 1, 'no_spam_mail_words': 2, 'mails_probability': 0.9411764705882353, 'words_probability': 0.9990530303030303}
 ab: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_words': 2, 'mails_probability': 0.0, 'words_probability': 0.0}
+ab:: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 aber: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 4, 'no_spam_mail_words': 4, 'mails_probability': 0.2, 'words_probability': 0.2}
 abgerechnet: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.0, 'words_probability': 0.0}
 abgeschlossen: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 abgestimmt: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.0, 'words_probability': 0.0}
 abgewickelt: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.0, 'words_probability': 0.0}
+abholbereit:: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 2, 'no_spam_mail_words': 2, 'mails_probability': 0.0, 'words_probability': 0.0}
 abon: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 abou: {'spam_mails': 1, 'spam_mail_words': 2, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 about: {'spam_mails': 1, 'spam_mail_words': 2, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 abschätzen: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 2, 'no_spam_mail_words': 2, 'mails_probability': 0.0, 'words_probability': 0.0}
 abstecken: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 2, 'no_spam_mail_words': 2, 'mails_probability': 0.0, 'words_probability': 0.0}
+abuse@hs: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 2, 'no_spam_mail_words': 4, 'mails_probability': 0.0, 'words_probability': 0.0}
 abzu: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 abzubilden: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.0, 'words_probability': 0.0}
 abzuwarten: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
@@ -1451,6 +1533,7 @@ achten: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mai
 acy: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 addressee: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 2, 'no_spam_mail_words': 2, 'mails_probability': 0.0, 'words_probability': 0.0}
 ade: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
+aft:: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 ag: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 2, 'no_spam_mail_words': 2, 'mails_probability': 0.0, 'words_probability': 0.0}
 age: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 agie: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
@@ -1461,6 +1544,7 @@ ahr: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_w
 ail: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 ake: {'spam_mails': 2, 'spam_mail_words': 3, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 aker: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
+aktiv!: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 aktivieren: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.0, 'words_probability': 0.0}
 aktu: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 aktualisieren: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
@@ -1479,7 +1563,9 @@ also: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 1, 'no_spam_mail_
 alten: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.5, 'words_probability': 0.5}
 alter: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 altu: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
+alvesdesouza@stud: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.0, 'words_probability': 0.0}
 am: {'spam_mails': 3, 'spam_mail_words': 3, 'no_spam_mails': 4, 'no_spam_mail_words': 6, 'mails_probability': 0.42857142857142855, 'words_probability': 0.3333333333333333}
+am:: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.0, 'words_probability': 0.0}
 ame: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 an: {'spam_mails': 6, 'spam_mail_words': 11, 'no_spam_mails': 6, 'no_spam_mail_words': 15, 'mails_probability': 0.5, 'words_probability': 0.4230769230769231}
 analytics: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
@@ -1529,10 +1615,12 @@ ation: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail
 ato: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 ator: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 atrik: {'spam_mails': 1, 'spam_mail_words': 2, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
+ats:: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 atta: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 attachments: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 2, 'no_spam_mail_words': 2, 'mails_probability': 0.0, 'words_probability': 0.0}
 atzst: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 au: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
+au:: {'spam_mails': 4, 'spam_mail_words': 4, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 auch: {'spam_mails': 6, 'spam_mail_words': 12, 'no_spam_mails': 6, 'no_spam_mail_words': 10, 'mails_probability': 0.5, 'words_probability': 0.5454545454545454}
 auf: {'spam_mails': 8, 'spam_mail_words': 18, 'no_spam_mails': 11, 'no_spam_mail_words': 18, 'mails_probability': 0.42105263157894735, 'words_probability': 0.5}
 aufgebaut: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.0, 'words_probability': 0.0}
@@ -1573,6 +1661,8 @@ bedeutete: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_
 befinden: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.0, 'words_probability': 0.0}
 befindet: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.0, 'words_probability': 0.0}
 befände: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.0, 'words_probability': 0.0}
+beginnen:: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
+beginnen?: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 behaupten: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 bei: {'spam_mails': 5, 'spam_mail_words': 8, 'no_spam_mails': 6, 'no_spam_mail_words': 11, 'mails_probability': 0.45454545454545453, 'words_probability': 0.42105263157894735}
 beide: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.0, 'words_probability': 0.0}
@@ -1595,6 +1685,7 @@ beri: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_
 berücksichtigt: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 bes: {'spam_mails': 1, 'spam_mail_words': 2, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 beschlossen: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 2, 'no_spam_mail_words': 2, 'mails_probability': 0.0, 'words_probability': 0.0}
+beschäftigen?: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 besonders: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.0, 'words_probability': 0.0}
 besprechen: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 2, 'no_spam_mail_words': 2, 'mails_probability': 0.0, 'words_probability': 0.0}
 besser: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_words': 2, 'mails_probability': 0.0, 'words_probability': 0.0}
@@ -1622,6 +1713,7 @@ bilden: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mai
 bildet: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.0, 'words_probability': 0.0}
 bind: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 bis: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 5, 'no_spam_mail_words': 7, 'mails_probability': 0.0, 'words_probability': 0.0}
+bis:: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 2, 'no_spam_mail_words': 2, 'mails_probability': 0.0, 'words_probability': 0.0}
 bisher: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.0, 'words_probability': 0.0}
 bisherigen: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 bitdefender: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.0, 'words_probability': 0.0}
@@ -1676,6 +1768,7 @@ chte: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_
 chtsr: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 cise: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 cit: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 2, 'no_spam_mail_words': 2, 'mails_probability': 0.0, 'words_probability': 0.0}
+cit@hs: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.0, 'words_probability': 0.0}
 ck: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 click: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 clou: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
@@ -1717,6 +1810,7 @@ danach: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mai
 dann: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 2, 'no_spam_mail_words': 4, 'mails_probability': 0.0, 'words_probability': 0.0}
 dar: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 daran: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.0, 'words_probability': 0.0}
+daran?: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 darauf: {'spam_mails': 2, 'spam_mail_words': 2, 'no_spam_mails': 2, 'no_spam_mail_words': 2, 'mails_probability': 0.5, 'words_probability': 0.5}
 daraus: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 darin: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 2, 'no_spam_mail_words': 2, 'mails_probability': 0.3333333333333333, 'words_probability': 0.3333333333333333}
@@ -1729,6 +1823,7 @@ dato: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 1, 'no_spam_mail_
 dazu: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 dazugehoerigen: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 2, 'no_spam_mail_words': 2, 'mails_probability': 0.0, 'words_probability': 0.0}
 de: {'spam_mails': 1, 'spam_mail_words': 8, 'no_spam_mails': 11, 'no_spam_mail_words': 36, 'mails_probability': 0.08333333333333333, 'words_probability': 0.18181818181818182}
+de;: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.0, 'words_probability': 0.0}
 dealing: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 ded: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 dedizierten: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
@@ -1753,6 +1848,7 @@ deutschen: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_
 devices: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 di: {'spam_mails': 1, 'spam_mail_words': 2, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 die: {'spam_mails': 8, 'spam_mail_words': 52, 'no_spam_mails': 12, 'no_spam_mail_words': 67, 'mails_probability': 0.4, 'words_probability': 0.4369747899159664}
+diehl@hs: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.0, 'words_probability': 0.0}
 dies: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.0, 'words_probability': 0.0}
 diese: {'spam_mails': 3, 'spam_mail_words': 3, 'no_spam_mails': 3, 'no_spam_mail_words': 7, 'mails_probability': 0.5, 'words_probability': 0.3}
 diesem: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 2, 'no_spam_mail_words': 3, 'mails_probability': 0.0, 'words_probability': 0.0}
@@ -1771,6 +1867,7 @@ discl: {'spam_mails': 1, 'spam_mail_words': 2, 'no_spam_mails': 0, 'no_spam_mail
 discuss: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 diskutierten: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 dissemination: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 2, 'no_spam_mail_words': 2, 'mails_probability': 0.0, 'words_probability': 0.0}
+dmb:kk13626908pxttxp0keq71s35g3aq5xyel: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 do: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 doc: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.0, 'words_probability': 0.0}
 dort: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_words': 2, 'mails_probability': 0.0, 'words_probability': 0.0}
@@ -1792,6 +1889,7 @@ duri: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_
 during: {'spam_mails': 1, 'spam_mail_words': 2, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 dürfen: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.0, 'words_probability': 0.0}
 e: {'spam_mails': 15, 'spam_mail_words': 6396, 'no_spam_mails': 2, 'no_spam_mail_words': 4, 'mails_probability': 0.8823529411764706, 'words_probability': 0.999375}
+e:: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 ear: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 eb: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 eben: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.0, 'words_probability': 0.0}
@@ -1878,6 +1976,7 @@ eo: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_wo
 eos: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 epa: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 er: {'spam_mails': 4, 'spam_mail_words': 18, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.8, 'words_probability': 0.9473684210526315}
+er:: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 eran: {'spam_mails': 2, 'spam_mail_words': 2, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 erati: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 ere: {'spam_mails': 3, 'spam_mail_words': 7, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
@@ -2033,12 +2132,14 @@ genervt: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_ma
 genialer: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 genommen: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.0, 'words_probability': 0.0}
 gentarnte: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.0, 'words_probability': 0.0}
+genug?: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 genutzt: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.0, 'words_probability': 0.0}
 gepaart: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 gerade: {'spam_mails': 2, 'spam_mail_words': 2, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 geric: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 gern: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 gerne: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 5, 'no_spam_mail_words': 6, 'mails_probability': 0.0, 'words_probability': 0.0}
+gerten@hs: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 2, 'no_spam_mail_words': 3, 'mails_probability': 0.0, 'words_probability': 0.0}
 gesamten: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.5, 'words_probability': 0.5}
 geschuetzte: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 2, 'no_spam_mail_words': 2, 'mails_probability': 0.0, 'words_probability': 0.0}
 geschützte: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.0, 'words_probability': 0.0}
@@ -2063,6 +2164,7 @@ glio: {'spam_mails': 1, 'spam_mail_words': 2, 'no_spam_mails': 0, 'no_spam_mail_
 glob: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 globalen: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 gläserne: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
+gorges@hs: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.0, 'words_probability': 0.0}
 gro: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 grobe: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 2, 'no_spam_mail_words': 2, 'mails_probability': 0.0, 'words_probability': 0.0}
 grober: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.0, 'words_probability': 0.0}
@@ -2102,6 +2204,7 @@ heut: {'spam_mails': 1, 'spam_mail_words': 2, 'no_spam_mails': 0, 'no_spam_mail_
 heute: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.5, 'words_probability': 0.5}
 hgä: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 hier: {'spam_mails': 2, 'spam_mail_words': 4, 'no_spam_mails': 4, 'no_spam_mail_words': 6, 'mails_probability': 0.3333333333333333, 'words_probability': 0.4}
+hier:: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.0, 'words_probability': 0.0}
 hierf: {'spam_mails': 2, 'spam_mail_words': 2, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 hiermit: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 2, 'no_spam_mail_words': 2, 'mails_probability': 0.0, 'words_probability': 0.0}
 hierzu: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 2, 'no_spam_mail_words': 2, 'mails_probability': 0.0, 'words_probability': 0.0}
@@ -2125,6 +2228,7 @@ hoffe: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail
 hop: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 hopefully: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.0, 'words_probability': 0.0}
 hp: {'spam_mails': 1, 'spam_mail_words': 2, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
+hr!: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 hs: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 7, 'no_spam_mail_words': 13, 'mails_probability': 0.125, 'words_probability': 0.07142857142857142}
 hste: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 ht: {'spam_mails': 1, 'spam_mail_words': 2, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
@@ -2133,7 +2237,9 @@ hti: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_w
 htigu: {'spam_mails': 2, 'spam_mail_words': 2, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 htlini: {'spam_mails': 2, 'spam_mail_words': 2, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 html: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 2, 'no_spam_mail_words': 2, 'mails_probability': 0.3333333333333333, 'words_probability': 0.3333333333333333}
+http:: {'spam_mails': 2, 'spam_mail_words': 5, 'no_spam_mails': 6, 'no_spam_mail_words': 6, 'mails_probability': 0.25, 'words_probability': 0.45454545454545453}
 https: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
+https:: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 3, 'no_spam_mail_words': 4, 'mails_probability': 0.0, 'words_probability': 0.0}
 hummel: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.0, 'words_probability': 0.0}
 hung: {'spam_mails': 2, 'spam_mail_words': 2, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 hybri: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
@@ -2158,6 +2264,7 @@ ig: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_wo
 ihre: {'spam_mails': 2, 'spam_mail_words': 2, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.6666666666666666, 'words_probability': 0.6666666666666666}
 ikon: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 im: {'spam_mails': 8, 'spam_mail_words': 16, 'no_spam_mails': 10, 'no_spam_mail_words': 20, 'mails_probability': 0.4444444444444444, 'words_probability': 0.4444444444444444}
+im:: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.0, 'words_probability': 0.0}
 imm: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 immer: {'spam_mails': 3, 'spam_mail_words': 4, 'no_spam_mails': 5, 'no_spam_mail_words': 8, 'mails_probability': 0.375, 'words_probability': 0.3333333333333333}
 implementieren: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
@@ -2215,12 +2322,14 @@ is: {'spam_mails': 3, 'spam_mail_words': 8, 'no_spam_mails': 2, 'no_spam_mail_wo
 ise: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 isen: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 ist: {'spam_mails': 8, 'spam_mail_words': 26, 'no_spam_mails': 11, 'no_spam_mail_words': 19, 'mails_probability': 0.42105263157894735, 'words_probability': 0.5777777777777777}
+ist:: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.0, 'words_probability': 0.0}
 istr: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 it: {'spam_mails': 3, 'spam_mail_words': 4, 'no_spam_mails': 2, 'no_spam_mail_words': 2, 'mails_probability': 0.6, 'words_probability': 0.6666666666666666}
 ite: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 iter: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 itet: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 its: {'spam_mails': 2, 'spam_mail_words': 3, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
+ity!: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 itzen: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 j: {'spam_mails': 10, 'spam_mail_words': 19, 'no_spam_mails': 2, 'no_spam_mail_words': 2, 'mails_probability': 0.8333333333333334, 'words_probability': 0.9047619047619048}
 ja: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 2, 'no_spam_mail_words': 2, 'mails_probability': 0.0, 'words_probability': 0.0}
@@ -2235,6 +2344,7 @@ jeweiligen: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam
 jour: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 k: {'spam_mails': 15, 'spam_mail_words': 459, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 kann: {'spam_mails': 2, 'spam_mail_words': 4, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.6666666666666666, 'words_probability': 0.8}
+kann:: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.0, 'words_probability': 0.0}
 kard: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 kaufen: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 ke: {'spam_mails': 2, 'spam_mail_words': 2, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
@@ -2260,6 +2370,7 @@ kommen: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mai
 kommende: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.0, 'words_probability': 0.0}
 kommenden: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 kommt: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.5, 'words_probability': 0.5}
+kommt!: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 komplexe: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 konkrete: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 2, 'no_spam_mail_words': 2, 'mails_probability': 0.0, 'words_probability': 0.0}
 konkreter: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 2, 'no_spam_mail_words': 2, 'mails_probability': 0.0, 'words_probability': 0.0}
@@ -2275,6 +2386,7 @@ kündigten: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_
 künftig: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.5, 'words_probability': 0.5}
 künstlicher: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 l: {'spam_mails': 16, 'spam_mail_words': 1475, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
+l:: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 la: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 lade: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.0, 'words_probability': 0.0}
 lan: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
@@ -2282,6 +2394,8 @@ lange: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail
 larg: {'spam_mails': 1, 'spam_mail_words': 2, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 las: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 lassen: {'spam_mails': 2, 'spam_mail_words': 4, 'no_spam_mails': 3, 'no_spam_mail_words': 4, 'mails_probability': 0.4, 'words_probability': 0.5}
+lassen:: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
+lassen?: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.0, 'words_probability': 0.0}
 late: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 latest: {'spam_mails': 1, 'spam_mail_words': 2, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 laufen: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.0, 'words_probability': 0.0}
@@ -2293,6 +2407,7 @@ learn: {'spam_mails': 1, 'spam_mail_words': 2, 'no_spam_mails': 1, 'no_spam_mail
 lediglich: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.0, 'words_probability': 0.0}
 legal: {'spam_mails': 1, 'spam_mail_words': 2, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 leider: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.0, 'words_probability': 0.0}
+leisten?: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 ler: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 lesen: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 less: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
@@ -2329,10 +2444,13 @@ m: {'spam_mails': 15, 'spam_mail_words': 1024, 'no_spam_mails': 2, 'no_spam_mail
 ma: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 mac: {'spam_mails': 2, 'spam_mail_words': 3, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 machen: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 2, 'no_spam_mail_words': 2, 'mails_probability': 0.0, 'words_probability': 0.0}
+machen?: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 macht: {'spam_mails': 3, 'spam_mail_words': 3, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.75, 'words_probability': 0.75}
 mail: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 3, 'no_spam_mail_words': 5, 'mails_probability': 0.25, 'words_probability': 0.16666666666666666}
+mail:: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.0, 'words_probability': 0.0}
 mailing: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.0, 'words_probability': 0.0}
 mailman: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.0, 'words_probability': 0.0}
+mailto:r: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.0, 'words_probability': 0.0}
 man: {'spam_mails': 6, 'spam_mail_words': 7, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.8571428571428571, 'words_probability': 0.875}
 manager: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 mannheim: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 11, 'no_spam_mail_words': 35, 'mails_probability': 0.0, 'words_probability': 0.0}
@@ -2347,6 +2465,7 @@ may: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 2, 'no_spam_mail_w
 maß: {'spam_mails': 2, 'spam_mail_words': 3, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 mb: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 me: {'spam_mails': 2, 'spam_mail_words': 2, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
+medientechnik@hs: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.0, 'words_probability': 0.0}
 meforpeople: {'spam_mails': 1, 'spam_mail_words': 4, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 meh: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 mehr: {'spam_mails': 4, 'spam_mail_words': 8, 'no_spam_mails': 3, 'no_spam_mail_words': 3, 'mails_probability': 0.5714285714285714, 'words_probability': 0.7272727272727273}
@@ -2395,6 +2514,9 @@ ms: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_wo
 multimodaler: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 mun: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 muss: {'spam_mails': 2, 'spam_mail_words': 3, 'no_spam_mails': 3, 'no_spam_mail_words': 4, 'mails_probability': 0.4, 'words_probability': 0.42857142857142855}
+mustermann@doktoranden: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.0, 'words_probability': 0.0}
+mustermann@lba: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.0, 'words_probability': 0.0}
+mustermann@stud: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.0, 'words_probability': 0.0}
 möc: {'spam_mails': 2, 'spam_mail_words': 2, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 möchte: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 2, 'no_spam_mail_words': 4, 'mails_probability': 0.0, 'words_probability': 0.0}
 möchten: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 2, 'no_spam_mail_words': 2, 'mails_probability': 0.0, 'words_probability': 0.0}
@@ -2506,6 +2628,7 @@ oor: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_w
 op: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 oppo: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 opri: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
+optimieren?: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 or: {'spam_mails': 4, 'spam_mail_words': 10, 'no_spam_mails': 2, 'no_spam_mail_words': 7, 'mails_probability': 0.6666666666666666, 'words_probability': 0.5882352941176471}
 ord: {'spam_mails': 2, 'spam_mail_words': 2, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 org: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
@@ -2538,12 +2661,15 @@ pdf: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_w
 per: {'spam_mails': 2, 'spam_mail_words': 3, 'no_spam_mails': 3, 'no_spam_mail_words': 4, 'mails_probability': 0.4, 'words_probability': 0.42857142857142855}
 pers: {'spam_mails': 3, 'spam_mail_words': 5, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 persönlichen: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.0, 'words_probability': 0.0}
+php?b7p: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
+php?fgj: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 pla: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 please: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 2, 'no_spam_mail_words': 2, 'mails_probability': 0.3333333333333333, 'words_probability': 0.3333333333333333}
 pop: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 por: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 positive: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 possible: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
+pqe:kk13626908pxttxp0keq71s35g3aq5xyel: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 pr: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 pragmatisch: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 prefer: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
@@ -2571,6 +2697,7 @@ ptio: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_
 publ: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 questions: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 r: {'spam_mails': 15, 'spam_mail_words': 2966, 'no_spam_mails': 2, 'no_spam_mail_words': 2, 'mails_probability': 0.8823529411764706, 'words_probability': 0.9993261455525606}
+r:: {'spam_mails': 2, 'spam_mail_words': 2, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 ransomware: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.0, 'words_probability': 0.0}
 rb: {'spam_mails': 1, 'spam_mail_words': 2, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 rc: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
@@ -2611,11 +2738,14 @@ richtigen: {'spam_mails': 1, 'spam_mail_words': 2, 'no_spam_mails': 0, 'no_spam_
 rid: {'spam_mails': 1, 'spam_mail_words': 2, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 riffe: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 right: {'spam_mails': 3, 'spam_mail_words': 4, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
+risk?: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 rks: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 rma: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 rmat: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 rn: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 rnet: {'spam_mails': 1, 'spam_mail_words': 2, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
+roeper@hs: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 2, 'no_spam_mail_words': 2, 'mails_probability': 0.0, 'words_probability': 0.0}
+roth@hs: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_words': 2, 'mails_probability': 0.0, 'words_probability': 0.0}
 rsl: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 rt: {'spam_mails': 2, 'spam_mail_words': 2, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 rua: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
@@ -2627,6 +2757,7 @@ röß: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_w
 rückgängig: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.0, 'words_probability': 0.0}
 rückt: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 s: {'spam_mails': 16, 'spam_mail_words': 2274, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
+s@v: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 sage: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 sale: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 savi: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
@@ -2644,6 +2775,7 @@ schliessen: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam
 schließen: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.0, 'words_probability': 0.0}
 schnellen: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.5, 'words_probability': 0.5}
 schon: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 3, 'no_spam_mail_words': 5, 'mails_probability': 0.25, 'words_probability': 0.16666666666666666}
+schulz@hs: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 2, 'no_spam_mail_words': 3, 'mails_probability': 0.0, 'words_probability': 0.0}
 schwierig: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 schädliche: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_words': 2, 'mails_probability': 0.0, 'words_probability': 0.0}
 schöner: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.0, 'words_probability': 0.0}
@@ -2660,6 +2792,7 @@ sein: {'spam_mails': 4, 'spam_mail_words': 4, 'no_spam_mails': 1, 'no_spam_mail_
 seine: {'spam_mails': 3, 'spam_mail_words': 3, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.75, 'words_probability': 0.75}
 seinen: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.5, 'words_probability': 0.5}
 seit: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
+seite:: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 selbst: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 2, 'no_spam_mail_words': 2, 'mails_probability': 0.0, 'words_probability': 0.0}
 selten: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 sen: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
@@ -2677,6 +2810,7 @@ sfers: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail
 si: {'spam_mails': 1, 'spam_mail_words': 2, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 sibl: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 sich: {'spam_mails': 8, 'spam_mail_words': 19, 'no_spam_mails': 5, 'no_spam_mail_words': 6, 'mails_probability': 0.6153846153846154, 'words_probability': 0.76}
+sich?: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.0, 'words_probability': 0.0}
 sicher: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.0, 'words_probability': 0.0}
 sichergestellt: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.0, 'words_probability': 0.0}
 sicherstellen: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
@@ -2689,12 +2823,14 @@ signalisiert: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_sp
 simpler: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 sincerely: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 sind: {'spam_mails': 4, 'spam_mail_words': 6, 'no_spam_mails': 8, 'no_spam_mail_words': 12, 'mails_probability': 0.3333333333333333, 'words_probability': 0.3333333333333333}
+sind:: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.0, 'words_probability': 0.0}
 sinnvoll: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 sitio: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 sive: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 skyp: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 slette: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 so: {'spam_mails': 3, 'spam_mail_words': 3, 'no_spam_mails': 2, 'no_spam_mail_words': 4, 'mails_probability': 0.6, 'words_probability': 0.42857142857142855}
+so?: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 sofort: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 2, 'no_spam_mail_words': 3, 'mails_probability': 0.0, 'words_probability': 0.0}
 software: {'spam_mails': 1, 'spam_mail_words': 2, 'no_spam_mails': 2, 'no_spam_mail_words': 2, 'mails_probability': 0.3333333333333333, 'words_probability': 0.5}
 solche: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.0, 'words_probability': 0.0}
@@ -2702,6 +2838,7 @@ soll: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_
 sollen: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.0, 'words_probability': 0.0}
 sollte: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 sollten: {'spam_mails': 2, 'spam_mail_words': 2, 'no_spam_mails': 4, 'no_spam_mail_words': 5, 'mails_probability': 0.3333333333333333, 'words_probability': 0.2857142857142857}
+sollten?: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.0, 'words_probability': 0.0}
 sondern: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.0, 'words_probability': 0.0}
 sor: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 sortiert: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.0, 'words_probability': 0.0}
@@ -2710,8 +2847,10 @@ sowie: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 1, 'no_spam_mail
 sowohl: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 spannende: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.0, 'words_probability': 0.0}
 sparen: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
+sparen!: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 sparsame: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 spe: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
+specht@hs: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.0, 'words_probability': 0.0}
 speichern: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.0, 'words_probability': 0.0}
 spezielle: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.0, 'words_probability': 0.0}
 spiratec: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 2, 'no_spam_mail_words': 2, 'mails_probability': 0.0, 'words_probability': 0.0}
@@ -2752,10 +2891,12 @@ support: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 1, 'no_spam_ma
 swe: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 sächlichen: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.0, 'words_probability': 0.0}
 t: {'spam_mails': 16, 'spam_mail_words': 2766, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.9411764705882353, 'words_probability': 0.9996385977593061}
+t!: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 tact: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 tak: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 tatsächlich: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 tbl: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.0, 'words_probability': 0.0}
+tbl@hs: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_words': 3, 'mails_probability': 0.0, 'words_probability': 0.0}
 te: {'spam_mails': 3, 'spam_mail_words': 4, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 tech: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 technischen: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
@@ -2817,6 +2958,7 @@ ufac: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_
 ugh: {'spam_mails': 1, 'spam_mail_words': 2, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 ular: {'spam_mails': 2, 'spam_mail_words': 3, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 um: {'spam_mails': 6, 'spam_mail_words': 10, 'no_spam_mails': 2, 'no_spam_mail_words': 4, 'mails_probability': 0.75, 'words_probability': 0.7142857142857143}
+um:: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.0, 'words_probability': 0.0}
 umfangreichen: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 umfassende: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.0, 'words_probability': 0.0}
 umgehen: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.0, 'words_probability': 0.0}
@@ -2861,7 +3003,9 @@ updated: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_ma
 upgrade: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 urop: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 us: {'spam_mails': 3, 'spam_mail_words': 4, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
+us:: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 use: {'spam_mails': 2, 'spam_mail_words': 3, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
+use?: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 using: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 uss: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 usw: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.0, 'words_probability': 0.0}
@@ -2898,6 +3042,7 @@ versendete: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 2, 'no_spam
 versetzt: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 verstärkt: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.0, 'words_probability': 0.0}
 versucht: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.0, 'words_probability': 0.0}
+vertraulich!: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.0, 'words_probability': 0.0}
 vertrauliche: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 4, 'no_spam_mail_words': 5, 'mails_probability': 0.0, 'words_probability': 0.0}
 vertraulichen: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.0, 'words_probability': 0.0}
 verursacht: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 2, 'no_spam_mail_words': 2, 'mails_probability': 0.0, 'words_probability': 0.0}
@@ -2940,6 +3085,7 @@ want: {'spam_mails': 1, 'spam_mail_words': 3, 'no_spam_mails': 0, 'no_spam_mail_
 war: {'spam_mails': 2, 'spam_mail_words': 2, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 warum: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 was: {'spam_mails': 2, 'spam_mail_words': 2, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
+watch?v: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.0, 'words_probability': 0.0}
 way: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 we: {'spam_mails': 2, 'spam_mail_words': 5, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 web: {'spam_mails': 3, 'spam_mail_words': 3, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
@@ -2990,6 +3136,7 @@ wird: {'spam_mails': 4, 'spam_mail_words': 6, 'no_spam_mails': 8, 'no_spam_mail_
 wirklich: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.5, 'words_probability': 0.5}
 wish: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 wissen: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 2, 'no_spam_mail_words': 2, 'mails_probability': 0.0, 'words_probability': 0.0}
+wissen?: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.0, 'words_probability': 0.0}
 with: {'spam_mails': 3, 'spam_mail_words': 8, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 wlet: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 wo: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.0, 'words_probability': 0.0}
@@ -3073,7 +3220,9 @@ zählen: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mai
 üb: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 übe: {'spam_mails': 1, 'spam_mail_words': 2, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 über: {'spam_mails': 5, 'spam_mail_words': 6, 'no_spam_mails': 5, 'no_spam_mail_words': 13, 'mails_probability': 0.5, 'words_probability': 0.3157894736842105}
+überfällig:: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 überhaupt: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
+übermittelt:: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_words': 1, 'mails_probability': 0.0, 'words_probability': 0.0}
 übertragen: {'spam_mails': 0, 'spam_mail_words': 0, 'no_spam_mails': 1, 'no_spam_mail_words': 2, 'mails_probability': 0.0, 'words_probability': 0.0}
 ügu: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}
 ün: {'spam_mails': 1, 'spam_mail_words': 1, 'no_spam_mails': 0, 'no_spam_mail_words': 0, 'mails_probability': 1.0, 'words_probability': 1.0}

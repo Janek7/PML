@@ -1,5 +1,5 @@
 XSpam: whitelist
-XSpamProbability: 0.19531644378587973
+XSpamProbability: 0.18697846612657726
 Von:	Frederik Dietrich <Frederik.Dietrich@Spiratec-AG.com>
 Gesendet:	Mittwoch, 21. März 2018 15:34
 An:	r.gerten@hs-mannheim.de

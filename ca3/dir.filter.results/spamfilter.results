@@ -1,4 +1,4 @@
-C:/Users/Janek/Documents/GitHub/PML/ca3/spamfilter_new.py [1.0] 15.12.2019
+C:/Users/Janek/Documents/GitHub/PML/ca3/spamfilter.py [1.0] 16.12.2019
 priorityorder: ('whitelist', 'blacklist', 'naive_bayes')
 nb_spam_class: {'spam': (1.0, 0.67), 'undetermined': (0.67, 0.33), 'nospam': (0.33, 0.0)}
 
@@ -10,9 +10,9 @@ Gesendet:	Mittwoch, 21. März 2018 15:34
 An:	r.gerten@hs-mannheim.de
 Betreff:	Kooperationsmöglichkeiten im Bereich Industrial IT zwischen HS Mannheim und SpiraTec AG
 ----------
-   mail_probability: 0.19389976806725326
-   words_probability: 0.1967331195045062
-   spam_probability: 0.19531644378587973
+   mail_probability: 0.18510290514708375
+   words_probability: 0.18885402710607077
+   spam_probability: 0.18697846612657726
    spam_class: whitelist
 ============================================================
 
@@ -21,9 +21,9 @@ Gesendet:	Dienstag, 10. April 2018 14:50
 An:	r.gerten@hs-mannheim.de
 Betreff:	Bestellung in der Bibliothek für: Gerten, Rainer
 ----------
-   mail_probability: 0.12884002617621224
-   words_probability: 0.14419327448088762
-   spam_probability: 0.13651665032854993
+   mail_probability: 0.11844970148458221
+   words_probability: 0.1325647846033967
+   spam_probability: 0.12550724304398947
    spam_class: nospam
 ============================================================
 
@@ -32,9 +32,9 @@ Gesendet:	Donnerstag, 28. Juni 2018 14:17
 An:	r.gerten@hs-mannheim.de
 Betreff:	E-3 Newsletter
 ----------
-   mail_probability: 0.81257262139409
-   words_probability: 0.8231753923474485
-   spam_probability: 0.8178740068707693
+   mail_probability: 0.8180250542262619
+   words_probability: 0.8283193809337049
+   spam_probability: 0.8231722175799834
    spam_class: spam
 ============================================================
 
@@ -43,9 +43,9 @@ Gesendet:	Samstag, 7. Juli 2018 04:04
 An:	r.gerten@hs-mannheim.de
 Betreff:	Hello Professor Gerten. I am UCLA journal manuscript editor, Jake Carpenter.
 ----------
-   mail_probability: 0.23472694421279963
-   words_probability: 0.24384499770950152
-   spam_probability: 0.23928597096115056
+   mail_probability: 0.23294870978694507
+   words_probability: 0.2419976871207932
+   spam_probability: 0.23747319845386913
    spam_class: blacklist
 ============================================================
 
@@ -55,9 +55,9 @@ An:	professoren@hs-mannheim.de; professoren-ruhestand@hs-mannheim.de; mitarbeite
 Betreff:	[Professoren] Informatik-Kolloquium: das Internet of Things naht unaufhaltsam
 Anlagen:	Abstract 27-11-18.pdf
 ----------
-   mail_probability: 0.22604191367133028
-   words_probability: 0.23484436331045286
-   spam_probability: 0.23044313849089157
+   mail_probability: 0.22288048830529772
+   words_probability: 0.2315598267606563
+   spam_probability: 0.22722015753297703
    spam_class: nospam
 ============================================================
 
@@ -66,7 +66,7 @@ Gesendet:	Dienstag, 10.12.2018 14:00
 An:	r.gerten@hs-mannheim.de
 Betreff:	Testmail zur Bestimmung des undetermined Bereichs
 ----------
-   mail_probability: 0.4642264207172746
-   words_probability: 0.4879060312766867
-   spam_probability: 0.4760662259969807
+   mail_probability: 0.4429316307761151
+   words_probability: 0.46552502066766427
+   spam_probability: 0.45422832572188965
    spam_class: undetermined
