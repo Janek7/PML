@@ -175,7 +175,7 @@ input_mails = {filename: {KEY_HEADER: mail_dict[KEY_HEADER], KEY_SENDER: mail_di
 # evaluation functions -> return whitelist, blacklist, spam, undetermined, nospam)
 
 
-def naive_bayes(mail_dict):
+def naive_bayes(mail_dict, naive_bayes_last=False):
     """
     changes the xspam value if a word is at the whitelist
     :param mail_dict: dictionary which represents one mail
@@ -201,7 +201,7 @@ def naive_bayes(mail_dict):
     mail_dict[KEY_XSPAM_PROBABILITY] = x_spam_probability
 
 
-def whitelist(mail_dict):
+def whitelist(mail_dict, naive_bayes_last=False):
     """
     changes the xspam value if a word is at the whitelist
     only applied if naive_bayes is the last evaluation method or naive_bayes evaluation predicts 'undetermined'
@@ -209,19 +209,21 @@ def whitelist(mail_dict):
     :param naive_bayes_not_last: flag if naive_bayes evaluation is last in the priority order
     :return:
     """
-    if any(mail_dict[KEY_SENDER] in word for word in white_list):
-        mail_dict[KEY_XSPAM] = X_SPAM_VALUE_WHITELIST
+    if not naive_bayes_last and mail_dict[KEY_XSPAM] == 'undetermined':
+        if any(mail_dict[KEY_SENDER] in word for word in white_list):
+            mail_dict[KEY_XSPAM] = X_SPAM_VALUE_WHITELIST
 
 
-def blacklist(mail_dict):
+def blacklist(mail_dict, naive_bayes_last=False):
     """
     changes the xspam value if a word is at the blacklist
     only applied if naive_bayes is the last evaluation method or naive_bayes evaluation predicts 'undetermined'
     :param mail_dict: dictionary which represents one mail
     :return:
     """
-    if any(mail_dict[KEY_SENDER] in word for word in black_list):
-        mail_dict[KEY_XSPAM] = X_SPAM_VALUE_BLACKLIST
+    if not naive_bayes_last and mail_dict[KEY_XSPAM] == 'undetermined':
+        if any(mail_dict[KEY_SENDER] in word for word in black_list):
+            mail_dict[KEY_XSPAM] = X_SPAM_VALUE_BLACKLIST
 
 
 # "whitelist", "blacklist", "naive_bayes"
@@ -234,8 +236,9 @@ evaluations = {'whitelist': whitelist,
 log_lines.append('processing mails:')
 for filename, mail_dict in input_mails.items():
 
+    naive_bayes_last = True if priorityorder[0] == 'naive_bayes' else False
     for evaluation_method in reversed(priorityorder):
-        evaluations[evaluation_method](mail_dict)
+        evaluations[evaluation_method](mail_dict, naive_bayes_last)
 
     # write results
     with open(dir_output + filename, 'w+') as output_file:

@@ -8,8 +8,8 @@ data_analysis_report = outputdir + inputfilename + '.dar'  # filename report dat
 # ensemble_learning_report = inputfilename + '.elr'               #filename report ensemble learning
 
 addfeatures = True  # allow new features
-calc_features = [lambda x: x[0] / x[1]]  # new feature
-feature_names = ['sepal_width', 'petal_width']  # 'sepal_length', 'sepal_width', 'petal_length', 'petal_width'
+calc_features = [lambda x: x[2] / x[3]]  # new feature
+feature_names = ['sepal_length', 'sepal_width']  # 'sepal_length', 'sepal_width', 'petal_length', 'petal_width'
 
 firstrelpred = 10  # count of first neighbours in outputlist
 dnnrange = [0, 1, 2, 3, 4]  # show different nearest neighbour range

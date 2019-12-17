@@ -42,14 +42,10 @@ class IrisAnalyst:
         # kmp analysis
         self.particular_knn_analyst.analyze(self.X, self.y, self.label_map)
         self.kmp_table = self.particular_knn_analyst.get_kmp_table()
-        self.kmp_distance_table = self.particular_knn_analyst.distance_table
-
         self.clean_data_with_kmp_table()
         self.number_of_records_after_cleaning = self.X.shape[0]
         self.particular_knn_analyst.analyze(self.X, self.y, self.label_map)
         self.kmp_table_cleaned = self.particular_knn_analyst.get_kmp_table()
-        self.kmp_distance_table_cleaned = self.particular_knn_analyst.distance_table
-
         self.write_dar_file()
         self.write_filtered_file()
 
@@ -90,9 +86,9 @@ class IrisAnalyst:
         data = []
         for line in lines:
             float_line = [float(e.replace(',', '.')) for e in line[:-1]]
-            filtered_line = [e for idx, e in enumerate(float_line) if idx in feature_col_indices]
-            calc_feature_values = [calc_feature(filtered_line) for calc_feature in
+            calc_feature_values = [calc_feature(float_line) for calc_feature in
                                    calc_features] if addfeatures else None
+            filtered_line = [e for idx, e in enumerate(float_line) if idx in feature_col_indices]
             data.append(filtered_line + (calc_feature_values if calc_feature_values is not None else []))
 
         # transform to numpy arrays
@@ -153,12 +149,6 @@ class IrisAnalyst:
         # kmp analysis
         lines.append(printseparator('KMP analysis') + '\n')
         lines.append('Number of records: {}\n'.format(self.number_of_records))
-        for line in self.kmp_distance_table:
-            lines.append(
-                '{}: {} - {} - KMP: {} - {}'.format(line[KEY_INDEX], line[KEY_FEATURES], line[KEY_LABEL],
-                                                    line[KEY_KMP],
-                                                    line[KEY_10_NEIGHBOURS]))
-        lines.append('\n')
         for kmp_value in self.kmp_table:
             records = self.kmp_table[kmp_value]
             lines.append('KMP {}: {} {}'.format(kmp_value, len(records), records))
@@ -168,13 +158,6 @@ class IrisAnalyst:
         lines.append(printseparator('KMP analysis after cleaning'))
         lines.append('\n')
         lines.append('Number of records after cleaning: {}'.format(self.number_of_records_after_cleaning))
-
-        for line in self.kmp_distance_table_cleaned:
-            lines.append(
-                '{}: {} - {} - KMP: {} - {}'.format(line[KEY_INDEX], line[KEY_FEATURES], line[KEY_LABEL],
-                                                    line[KEY_KMP],
-                                                    line[KEY_10_NEIGHBOURS]))
-        lines.append('\n')
         for kmp_value in self.kmp_table_cleaned:
             records = self.kmp_table_cleaned[kmp_value]
             lines.append('KMP {}: {} {}'.format(kmp_value, len(records), records))

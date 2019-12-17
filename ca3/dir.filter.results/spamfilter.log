@@ -16,10 +16,10 @@ directory_laden(dir.mail.input\):
 dict_keys(['2018-03-21 Kooperationsmöglichkeiten im Bereich In.txt', '2018-04-10 Bestellung in der Bibliothek für Gerten.txt', '2018-06-28 E-3 Newsletter.txt', '2018-07-07 Hello Professor Gerten. I am UCLA journ.txt', '2018-11-23 Informatik-Kolloquium das Internet of T.txt', '2018-12-10 Testmail zur Bestimmung des undetermine.txt'])
 
 processing mails:
-[whitelist] 2018-03-21 Kooperationsmöglichkeiten im Bereich In.txt
+[nospam] 2018-03-21 Kooperationsmöglichkeiten im Bereich In.txt
 [nospam] 2018-04-10 Bestellung in der Bibliothek für Gerten.txt
 [spam] 2018-06-28 E-3 Newsletter.txt
 [blacklist] 2018-07-07 Hello Professor Gerten. I am UCLA journ.txt
-[nospam] 2018-11-23 Informatik-Kolloquium das Internet of T.txt
+[undetermined] 2018-11-23 Informatik-Kolloquium das Internet of T.txt
 [undetermined] 2018-12-10 Testmail zur Bestimmung des undetermine.txt
 processed mails 6
